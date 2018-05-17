@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>模特卡</title>
+		<link rel="stylesheet" type="text/css" href="../css/bootstrap.css" />
+		<link rel="stylesheet" type="text/css" href="../css/mode-card.css" />
+		<style type="text/css">
+
+		</style>
+	</head>
+
+	<body>
+		<div class="container">
+			<div class="row clearfix">
+				<div class="col-md-12 column" id="test">
+					<div class="thumbnail">
+						<img alt="140x140" data-original="../img/moder-card/moka.jpg" class="lazy" />
+					</div>
+					<div class="thumbnail">
+						<img alt="140x140" data-original="../img/moder-card/banner-jingji.jpg" class="lazy" />
+					</div>
+				</div>
+			</div>
+			<div class="row clearfix">
+				<div class="col-md-12 column">
+					<h3>
+						礼仪AND模特
+					</h3>
+					<div class="row clearfix">
+						<div class="col-md-12 column" id="card-list">
+
+							<div class="text" style="top:60px;">
+								模特1
+							</div>
+							<div class="text" style="left: 130px;top: 20px;">
+								ID1
+							</div>
+							<img class="lazy" data-original="../img/moder-card/01.jpg" />
+
+							<div class="thumbnail">
+								<div class="text" style="top:60px;">
+									模特2
+								</div>
+								<div class="text" style="left: 130px;top: 20px;">
+									ID2
+								</div>
+								<img class="lazy" data-original="../img/moder-card/02.jpg" />
+							</div>
+							<div class="thumbnail">
+								<div class="text" style="top:60px;">
+									模特3
+								</div>
+								<div class="text" style="left: 130px;top: 20px;">
+									ID3
+								</div>
+								<img class="lazy" data-original="../img/moder-card/03.jpg" />
+							</div>
+							<div class="thumbnail">
+								<div class="text" style="top:60px;">
+									模特4
+								</div>
+								<div class="text" style="left: 130px;top: 20px;">
+									ID4
+								</div>
+								<img class="lazy" data-original="../img/moder-card/04.jpg" />
+							</div>
+							<div class="thumbnail">
+								<div class="text" style="top:60px;">
+									模特5
+								</div>
+								<div class="text" style="left: 130px;top: 20px;">
+									ID5
+								</div>
+								<img class="lazy" data-original="../img/moder-card/05.jpg" />
+							</div>
+							<div class="thumbnail">
+								<div class="text" style="top:60px;">
+									模特6
+								</div>
+								<div class="text" style="left: 130px;top: 20px;">
+									ID6
+								</div>
+								<img class="lazy" data-original="../img/moder-card/06.jpg" />
+							</div>
+							<div class="thumbnail">
+								<div class="text" style="top:60px;">
+									模特7
+								</div>
+								<div class="text" style="left: 130px;top: 20px;">
+									ID7
+								</div>
+								<img class="lazy" data-original="../img/moder-card/07.jpg" />
+							</div>
+							<div class="thumbnail">
+								<div class="text" style="top:60px;">
+									模特8
+								</div>
+								<div class="text" style="left: 130px;top: 20px;">
+									ID8
+								</div>
+								<img class="lazy" data-original="../img/moder-card/08.jpg" />
+							</div>
+							<div class="thumbnail">
+								<div class="text" style="top:60px;">
+									模特9
+								</div>
+								<div class="text" style="left: 130px;top: 20px;">
+									ID9
+								</div>
+								<img class="lazy" data-original="../img/moder-card/09.jpg" />
+							</div>
+							<div class="thumbnail">
+								<div class="text" style="top:60px;">
+									模特10
+								</div>
+								<div class="text" style="left: 130px;top: 20px;">
+									ID10
+								</div>
+								<img class="lazy" data-original="../img/moder-card/10.jpg" />
+							</div>
+							<div class="thumbnail">
+								<div class="text" style="top:60px;">
+									模特11
+								</div>
+								<div class="text" style="left: 130px;top: 20px;">
+									ID11
+								</div>
+								<img class="lazy" data-original="../img/moder-card/11.jpg" />
+							</div>
+							<div class="thumbnail">
+								<div class="text" style="top:60px;">
+									模特12
+								</div>
+								<div class="text" style="left: 130px;top: 20px;">
+									ID12
+								</div>
+								<img class="lazy" data-original="../img/moder-card/12.jpg" />
+							</div>
+							<div class="thumbnail">
+								<div class="text" style="top:60px;">
+									模特13
+								</div>
+								<div class="text" style="left: 130px;top: 20px;">
+									ID13
+								</div>
+								<img class="lazy" data-original="../img/moder-card/13.jpg" />
+							</div>
+							<div class="thumbnail">
+								<div class="text" style="top:60px;">
+									模特14
+								</div>
+								<div class="text" style="left: 130px;top: 20px;">
+									ID14
+								</div>
+								<img class="lazy" data-original="../img/moder-card/14.jpg" />
+							</div>
+							<div class="thumbnail">
+								<div class="text" style="top:60px;">
+									模特15
+								</div>
+								<div class="text" style="left: 130px;top: 20px;">
+									ID15
+								</div>
+								<img class="lazy" data-original="../img/moder-card/15.jpg" />
+							</div>
+							<div class="thumbnail">
+								<div class="text" style="top:60px;">
+									模特16
+								</div>
+								<div class="text" style="left: 130px;top: 20px;">
+									ID16
+								</div>
+								<img class="lazy" data-original="../img/moder-card/16.jpg" />
+							</div>
+							<div class="thumbnail">
+								<div class="text" style="top:60px;">
+									模特17
+								</div>
+								<div class="text" style="left: 130px;top: 20px;">
+									ID17
+								</div>
+								<img class="lazy" data-original="../img/moder-card/17.jpg" />
+							</div>
+							<div class="thumbnail">
+								<div class="text" style="top:60px;">
+									模特18
+								</div>
+								<div class="text" style="left: 130px;top: 20px;">
+									ID18
+								</div>
+								<img class="lazy" data-original="../img/moder-card/18.jpg" />
+							</div>
+							<div class="thumbnail">
+								<div class="text" style="top:60px;">
+									模特19
+								</div>
+								<div class="text" style="left: 130px;top: 20px;">
+									ID19
+								</div>
+								<img class="lazy" data-original="../img/moder-card/19.jpg" />
+							</div>
+							<div class="thumbnail">
+								<div class="text" style="top:60px;">
+									模特20
+								</div>
+								<div class="text" style="left: 130px;top: 20px;">
+									ID20
+								</div>
+								<img class="lazy" data-original="../img/moder-card/20.jpg" />
+							</div>
+							<div class="thumbnail">
+								<div class="text" style="top:60px;">
+									模特21
+								</div>
+								<div class="text" style="left: 130px;top: 20px;">
+									ID21
+								</div>
+								<img class="lazy" data-original="../img/moder-card/21.jpg" />
+							</div>
+							<div class="thumbnail">
+								<div class="text" style="top:60px;">
+									模特22
+								</div>
+								<div class="text" style="left: 130px;top: 20px;">
+									ID22
+								</div>
+								<img class="lazy" data-original="../img/moder-card/22.jpg" />
+							</div>
+							<div class="thumbnail">
+								<div class="text" style="top:60px;">
+									模特23
+								</div>
+								<div class="text" style="left: 130px;top: 20px;">
+									ID23
+								</div>
+								<img class="lazy" data-original="../img/moder-card/23.jpg" />
+							</div>
+							<div class="thumbnail">
+								<div class="text" style="top:60px;">
+									模特24
+								</div>
+								<div class="text" style="left: 130px;top: 20px;">
+									ID24
+								</div>
+								<img class="lazy" data-original="../img/moder-card/24.jpg" />
+							</div>
+							<div class="thumbnail">
+								<div class="text" style="top:60px;">
+									模特25
+								</div>
+								<div class="text" style="left: 130px;top: 20px;">
+									ID25
+								</div>
+								<img class="lazy" data-original="../img/moder-card/25.jpg" />
+							</div>
+							<div class="thumbnail">
+								<div class="text" style="top:60px;">
+									模特26
+								</div>
+								<div class="text" style="left: 130px;top: 20px;">
+									ID26
+								</div>
+								<img class="lazy" data-original="../img/moder-card/26.jpg" />
+							</div>
+							<div class="thumbnail">
+								<div class="text" style="top:60px;">
+									模特27
+								</div>
+								<div class="text" style="left: 130px;top: 20px;">
+									ID27
+								</div>
+								<img class="lazy" data-original="../img/moder-card/27.jpg" />
+							</div>
+							<div class="thumbnail">
+								<div class="text" style="top:60px;">
+									模特28
+								</div>
+								<div class="text" style="left: 130px;top: 20px;">
+									ID28
+								</div>
+								<img class="lazy" data-original="../img/moder-card/28.jpg" />
+							</div>
+							<div class="thumbnail">
+								<div class="text" style="top:60px;">
+									模特29
+								</div>
+								<div class="text" style="left: 130px;top: 20px;">
+									ID29
+								</div>
+								<img class="lazy" data-original="../img/moder-card/29.jpg" />
+							</div>
+							<div class="thumbnail">
+								<div class="text" style="top:60px;">
+									模特30
+								</div>
+								<div class="text" style="left: 130px;top: 20px;">
+									ID30
+								</div>
+								<img class="lazy" data-original="../img/moder-card/30.jpg" />
+							</div>
+							<div class="thumbnail">
+								<div class="text" style="top:60px;">
+									模特31
+								</div>
+								<div class="text" style="left: 130px;top: 20px;">
+									ID31
+								</div>
+								<img class="lazy" data-original="../img/moder-card/31.jpg" />
+							</div>
+						</div>
+					</div>
+					<div id="paging">
+						<div class="paging-box">
+							<ul class="pagination" id="paging-list">
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="../js/jquery-3.2.1.js"></script>
+		<script src="../js/bootstrap.js"></script>
+
+		<script src="../js/jquery-lazyload.js"></script>
+		<script type="text/javascript">
+			$(".lazy").lazyload({
+				effect: "slideDown"
+			});
+		</script>
+	</body>
+
+</html>

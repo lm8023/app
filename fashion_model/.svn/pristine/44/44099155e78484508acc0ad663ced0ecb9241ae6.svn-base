@@ -1,0 +1,60 @@
+a:hover{
+    text-decoration: none;
+}
+main > .container-fluid{
+    background: #F8F8F8;
+}
+main h3{
+    margin-top: 10px;
+}
+
+main > .container-fluid > .container > .row{
+    background: white;
+    padding-top: 15px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+main > .container-fluid > .container > .row .thumbnail{
+    border: 0;
+    margin-top: 10px;
+}
+main > .container-fluid > .container > .row .breadcrumb{
+    background: #f94f9b;
+    color: white;
+    text-align: center;
+    border-radius: 0;
+    margin-bottom: 15px;
+}
+main > .container-fluid > .container > .row .list-ol{
+    line-height: 30px;
+}
+main > .container-fluid > .container > .row:nth-child(2)~.row .col-md-6:nth-child(2){
+    text-align: center;
+    padding: 35px;
+}
+main > .container-fluid > .container > .row:nth-child(2)~.row p:nth-child(1){
+    font-size: 22px;
+}
+main > .container-fluid > .container > .row:nth-child(7){
+    text-align: center;
+}
+main #contact-img> .col-md-4{
+    padding: 10px;
+}
+main #contact-img{
+    text-align: center;
+}
+
+main #contact-img img{
+    width: 40%;
+    max-width: 200px;
+    min-width: 120px;
+    height: auto;
+}
+.mTop{
+    margin-top: 10px;
+}
+main .container>.row:hover {
+    box-shadow: 0 0px 15px rgba(0, 0, 0, 0.3);
+
+}

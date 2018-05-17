@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>后台信息</title>
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<link rel="stylesheet" type="text/css" href="css/root.css" />
+		<!--ico-->
+		<link rel="shortcut icon" href="img/favicon.ico"  />
+	</head>
+
+	<body>
+		<div class="container-fluid">
+			<div class="container">
+				<div class="row clearfix">
+					<div class="col-md-12 column">
+						<nav class="navbar navbar-default" role="navigation">
+							<div class="navbar-header">
+								<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> 
+							 	<span class="icon-bar"></span>
+							 	<span class="icon-bar"></span>
+							 	<span class="icon-bar"></span></button>
+								<a class="navbar-brand" href="#">后台信息</a>
+							</div>
+							<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+								<ul class="nav navbar-nav">
+									<li class="active">
+										<a href="index.html">首页</a>
+									</li>
+								</ul>
+
+								<ul class="nav navbar-nav navbar-right">
+									<li>
+										<a href="land.html">注销</a>
+									</li>
+								</ul>
+							</div>
+						</nav>
+					</div>
+				</div>
+				<div class="row clearfix">
+					<div class="col-md-2 column">
+						<blockquote id="land_box">
+							<img alt="140x140" src="img/model/shumo.jpg" class="img-circle" />
+							<p id="userId">
+								管理员
+							</p>
+						</blockquote>
+					</div>
+					<div class="col-md-10 column">
+						<blockquote id="customer-box">
+							<h3>客户信息</h3>
+							<div class="row clearfix">
+								<div class="col-md-12 column">
+									<div id="customerInformation">
+										<form class="navbar-form" role="search">
+											<div class="search">
+												<input type="text" class="form-control" placeholder="搜索" v-model="searchVal" />
+											</div>
+										</form>
+										<button class="btn btn-default" @click="showData()" id="btn-fixed">更新数据</button>
+										<p v-for="(item, key) in list" id="mation">
+											<span>{{item.id}}</span>
+											<span>姓名：{{item.name}}</span>
+											<span>电话：{{item.tel}}</span>
+											<span>地址：{{item.adress}}</span>
+											<span>工作内容：{{item.work}}</span>
+											<span>备注：{{item.other}}</span>
+										</p>
+									</div>
+								</div>
+							</div>
+						</blockquote>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="js/jquery-3.2.1.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<script src="js/vue.js"></script>
+		<script type="text/javascript">
+			$(function vue() {
+				var vmm = new Vue({
+					el: "#customerInformation",
+					data: {
+						datas: [],
+						searchVal: '',
+					},
+					computed: {
+						list: function() {
+							var arr = [];
+							for(var i = 0; i < this.datas.length; i++) {
+								if(this.datas[i].name.search(this.searchVal) != -1||this.datas[i].tel.search(this.searchVal) != -1||this.datas[i].adress.search(this.searchVal) != -1) {
+									arr.push(this.datas[i]);
+								}
+							}
+							return arr;
+						}
+					},
+					mounted: function() {
+						this.showData();
+					},
+					methods: {
+						showData: function() {
+							jQuery.ajax({
+								type: 'Get',
+								url: "php/root.php",
+								success: function(data) {
+									var json = JSON.parse(data)
+									var n = vmm.datas.length
+									for(var i = n; i < json.length; i++) {
+										vmm.datas.push(json[i]);
+									}
+								}
+
+							})
+
+						},
+					}
+
+				});
+			})
+		</script>
+	</body>
+
+</html>
+
+

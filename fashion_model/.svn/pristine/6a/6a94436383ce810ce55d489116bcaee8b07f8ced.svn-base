@@ -1,0 +1,36 @@
+@charset"UTF-8";
+//声明该css文件使用utf-8编码。当文件保存为utf-8编码时,其中的注释文字将正常显示。否则注释乱码。
+
+
+/*
+* 模块化
+*/
+@import "footer.less";
+@import "header.less";
+
+
+
+main{
+    .container{
+        img{width: 100%;}
+    }
+    
+    .lunbo{
+        img{width: 100%;}
+    }
+    
+    .activities{
+        
+        img{width: 100%;}
+        
+        
+    }
+    
+    
+}
+
+
+
+
+
+

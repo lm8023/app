@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>时尚生活</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+		<script src="js/jquery-3.2.1.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<link href="css/bootstrap.css" rel="stylesheet">
+
+		<link rel="stylesheet" href="css/fashiontext.css">
+		<link rel="stylesheet" href="css/header.css">
+		<link rel="stylesheet" href="css/footer.css">
+
+
+		<!--兼容(小于ie9加载js文件)-->
+		<!--[if lt IE 9]>
+        <!--<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>-->
+		<!--<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>-->
+		<!--<![endif]&ndash;&gt;-->
+	
+	</head>
+
+	<body>
+		
+		<!--头部文件引入-->	
+		<header></header>
+
+
+		
+		
+		<main>
+			<div class="container">
+			
+					<div class="col-md-12 column fashiontext ">
+						
+							<div class="col-md-9 column shadow">
+							
+									
+									<div class="col-md-12 column">
+										
+										<h2 class="text-center">
+											天啦噜！到底有多少明星在戴Gentle Monster？
+										</h2>
+										
+										<hr />
+										
+										<p>
+											如果要问有没有什么墨镜在众多韩剧中出现的频率最高？那么，有明星御用墨镜之称的 Gentle Monster 你一要记住！<br>品牌：Gentle Monster<br>拍摄：成都模特网昭哥<br>地点：Lan’s Patisserie<br>成都市锦江区东大街99号晶融汇购物广场1楼113号
+										</p>
+										
+										<p class="thumbnail">
+											 <img  src="img/fashion/id1-textimg01.jpg" alt="300x200" />
+										</p>
+
+										<p>
+											如果你还不了解GENTLE MONSTER是什么，请90秒快速补全知识点。<br/>到底有多少明星在戴Gentle Monster？<br/>Gentle Monster 算的上是在韩国明星圈最受宠的本土品牌了，多数韩国明星街拍都戴过<br/>朴有天与申世景在韩剧《看见味道的少女》里的定情墨镜<br/>1.金宇彬<br/>因为《继承者们》被大家熟知的大长腿金宇彬一身休闲装扮配上这样一副墨镜实在拉风。<br/>2.伊恩惠<br/>伊恩惠优雅的小女人look，搭配这样一幅复古可爱的墨镜显得整个人精致优雅。
+										</p>
+										
+										<p class="thumbnail">
+											 <img  src="img/fashion/id1-textimg02.jpg" alt="300x200" />
+										</p>
+	
+										<p>
+											【韩国必去潮店之一 弘大Gentle Monster showroom】<br/>位于弘大的showroom绝不是一个简单的店铺，布置和陈列的震撼程度好比一场绝妙的展览。常客们都会发现，每次去这家店都会感受到不同的风格，有时是优雅恬静的咖啡厅，有时是废旧的汽车工厂，它不像一家普通的商店，而是像一家艺术馆，陈列着不同的创意设计。<br/>对于眼镜爱好者来说，你总能在这家店内找到适合自己的存在。这里有斯文的黑框眼镜，也有优雅高贵的女士墨镜，更有让人为之惊叹的创意墨镜，或是幽默好笑的搞怪墨镜，它的品牌风格就正如它的名称一样，绅士怪物。<br/>由于受到了越来越多朋友的喜爱，此品牌墨镜除了在韩国、法国、西班牙、意大利、葡萄牙等30个国家设立了450多个卖场外，还计划6月份在纽约开旗舰店，不仅获得了更多的人气，也在全球的太阳镜品牌中打下了坚实的基础。带着蕴含艺术气息的墨镜，想不潮都不行。
+										</p>
+										
+										<p class="thumbnail">
+											 <img  src="img/fashion/id1-textimg03.jpg" alt="300x200" />
+										</p>
+							
+									</div>
+					
+							</div>
+							
+							
+							
+							
+							
+							<div class="col-md-3 column">
+								
+									<div class="col-md-12">
+										<div class="thumbnail shadow">
+											<img alt="300x200" src="img/qrcode.jpg" />
+											<div class="caption">
+												<p class="text-center">													
+													关注微信公众号更精彩
+												</p>
+											</div>
+										</div>
+									</div>
+								
+							
+								
+	
+									<div class="col-md-12 column ">
+										<div class="panel panel-default shadow">
+											<div class="panel-heading">
+												<h3 class="panel-title">
+													最新资讯
+												</h3>
+											</div>
+											<div class="panel-body">
+												<a href="">1</a>
+											</div>
+											<div class="panel-body">
+												<a href="">2</a>
+											</div>
+											<div class="panel-body">
+												<a href="">3</a>
+											</div>
+										
+										</div>
+									</div>
+
+								
+								
+								
+							</div>
+					
+					</div>
+			
+			</div>		
+		<script src="js/fashiontext.js"></script>
+		</main>
+		<!--尾部文件引入-->	
+		<footer class="container-fluid"></footer>
+		<script>
+			$(function(){		
+				$('header').load('header.html');	
+			    $('footer').load('footer.html');		  
+			})
+		</script>	
+	
+	</body>
+
+</html>

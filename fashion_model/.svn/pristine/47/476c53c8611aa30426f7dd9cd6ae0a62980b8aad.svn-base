@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+		<link rel="stylesheet" href="css/header.css">
+		<link rel="stylesheet" href="css/footer.css">
+		<link rel="stylesheet" type="text/css" href="css/mode-card-parson.css" />
+	</head>
+
+	<body>
+		<header></header>
+		<main>
+			<div class="container-fluid">
+				<div class="container">
+					<div class="row clearfix">
+						<div class="col-md-12 column">
+							<div id="card">
+							</div>
+							<a id="modal-919469" href="#modal-container-919469" role="button" class="btn" data-toggle="modal">模特微信</a>
+							<div class="modal fade" id="modal-container-919469" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+								<div class="modal-dialog">
+									<div class="modal-content">
+										<div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+											<h4 class="modal-title" id="myModalLabel">
+												联系经纪人
+											</h4>
+										</div>
+										<div class="modal-body">
+											<div class="thumbnail">
+												<img src="img/code.jpg" />
+											</div>
+											<p>马上联系负责人<br>发送模特ID给负责人，尽快为您提供对接</p>
+										</div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="container-fluid"></footer>
+		<script src="js/jquery-3.2.1.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<script src="js/mode-card-parson.js"></script>
+		<script>
+			$(function() {
+				$('header').load('header.html');	
+			    $('footer').load('footer.html');		  
+			})
+		</script>
+	</body>
+
+</html>

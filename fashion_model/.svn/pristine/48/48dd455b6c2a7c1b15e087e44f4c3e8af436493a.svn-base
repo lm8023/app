@@ -1,0 +1,29 @@
+//function root() {
+//	var xmlhttp; //全局的对象的变量
+//	if(window.XMLHttpRequest) { //判断浏览器的兼容性
+//		xmlhttp = new XMLHttpRequest(); //new 对象，针对高版本
+//	} else {
+//		xmlhttp = new ActiveXObject("Microsoft.XMLHTTP"); //IE6,IE5
+//	}
+//	xmlhttp.open('GET', 'php/root.php', true);
+//	xmlhttp.send();
+//	xmlhttp.onreadystatechange = function() {
+//		if(xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+//			var json = JSON.parse(xmlhttp.responseText);
+//			console.log(json)
+//			var Information="";
+//			for(var i = 0; i < json.length; i++) {
+//				Information += '<p>' +
+//				    '<span>'+json[i].id+'<span>'+
+//					'<span>姓名：'+json[i].name+'</span>' +
+//					'<span>电话：'+json[i].tel+'</span>' +
+//					'<span>地址：'+json[i].adress+'</span>' +
+//					'<span>工作内容：'+json[i].work+'</span>' +
+//					'<span>备注：'+json[i].other+'</span>' +
+//					'</p>'
+//			}
+//			$("#customerInformation").html(Information);
+//		}
+//	}
+//}
+//root()

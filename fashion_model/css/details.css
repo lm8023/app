@@ -1,0 +1,79 @@
+main .thumbnail {
+  border: 0;
+}
+main .details-left {
+  transition: all 0.6s linear;
+}
+main .details-left .woman .vip {
+  background: #f0ad4e;
+  color: white;
+  padding: 5px;
+}
+main .details-left .woman .name {
+  color: red;
+}
+main .details-left .woman .city {
+  background-color: #337ab7;
+  color: white;
+  width: 100px;
+  padding: 5px;
+}
+main .details-left .woman .hight {
+  background-color: #000000;
+  color: white;
+  padding: 5px;
+  width: 150px;
+}
+main .details-left .woman .bust {
+  background-color: #000000;
+  color: white;
+  padding: 5px;
+  width: 150px;
+}
+main .details-left .woman .waistline {
+  background-color: #000000;
+  color: white;
+  padding: 5px;
+  width: 150px;
+}
+main .details-left .woman .hips {
+  background-color: #000000;
+  color: white;
+  padding: 5px;
+}
+main .details-left .woman .foot {
+  background-color: #000000;
+  color: white;
+  padding: 5px;
+}
+main .details-left .woman .hair {
+  background-color: #000000;
+  color: white;
+  padding: 5px;
+}
+main .details-left .woman .eyes {
+  background-color: #000000;
+  color: white;
+  padding: 5px;
+}
+main .details-left .woman .btns {
+  width: 100%;
+  background-color: #f0ad4e;
+  border: 0;
+  color: white;
+}
+main .details-left:hover {
+  box-shadow: 0 0px 15px rgba(0, 0, 0, 0.3);
+}
+main .details-right {
+  transition: all 0.6s linear;
+}
+main .details-right:hover {
+  box-shadow: 0 0px 15px rgba(0, 0, 0, 0.3);
+}
+main .advertisement {
+  line-height: 190%;
+}
+main #prve {
+  margin-top: 5px;
+}

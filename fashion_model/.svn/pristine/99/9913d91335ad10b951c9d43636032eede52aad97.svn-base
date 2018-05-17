@@ -1,0 +1,86 @@
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+header {
+  color: #757575;
+  font: normal 13px Microsoft YaHei;
+}
+header .nav-logo {
+  width: 100px;
+  background: url(../img/logo.png) no-repeat center;
+  background-size: cover;
+}
+header .header-menu {
+  padding-left: 0;
+  padding-right: 0;
+}
+header .header-menu nav li {
+  margin-left: 10px;
+}
+main .shadow {
+  cursor: pointer;
+  transition: all 0.6s linear;
+}
+main .shadow:hover {
+  box-shadow: 0 0px 15px rgba(0, 0, 0, 0.3);
+}
+main .home_star {
+  height: 50px;
+  background: white;
+  cursor: pointer;
+}
+main .home_star .container {
+  height: 50px;
+  overflow: hidden;
+  background: white;
+}
+main .home_star .container .box {
+  width: 16500px;
+}
+main .home_star .container .info-titie:hover {
+  text-decoration: none;
+}
+main .home_star .container .info-titie {
+  float: left;
+  color: #000000;
+  width: 1500px;
+  line-height: 50px;
+  position: relative;
+  display: inline-block;
+  animation-delay: 4s;
+  -webkit-animation-delay: 4s;
+  transition: margin-left 1s ease;
+  animation: mymove 15s 2s linear infinite;
+  -webkit-animation: mymove 15s 2s linear infinite;
+  /*Safari and Chrome  infinite是无限次重复*/
+  /*反向移动*/
+}
+main .home_star .container .info-titie span {
+  color: white;
+  height: 50px;
+  background: #c3924d;
+  display: inline-block;
+}
+@keyframes mymove {
+  from {
+    left: 0;
+  }
+  to {
+    left: -1240px;
+  }
+}
+@-webkit-keyframes mymove {
+  /*Safari and Chrome*/
+  from {
+    left: 0;
+  }
+  to {
+    left: -1240px;
+  }
+}

@@ -1,0 +1,133 @@
+@charset "UTF-8";
+/*
+* 模块化
+*/
+main {
+  background: #F8F8F8;
+}
+main .lunbo img {
+  width: 100%;
+}
+main .activities img {
+  width: 100%;
+  transition: all 0.1s linear;
+  border: 2px solid white;
+}
+main .activities img:hover {
+  width: 100%;
+  border: 2px solid red;
+}
+main .activities .act {
+  margin-top: 50px;
+}
+main .activities .act .act-style {
+  margin-top: 5px;
+  border-radius: 0;
+}
+main .activities .act .act-style .thumbnail-text {
+  border-radius: 0;
+  border: 0px;
+  padding: 11px;
+}
+main .activities .act .act-style .introduction {
+  padding: 30px;
+}
+main .activities .act .act-style .introduction .newbtn .titltext {
+  color: burlywood;
+  transition: all 0.518s;
+}
+main .activities .act .act-style .introduction .newbtn .titltext:hover {
+  color: #337ab7;
+  text-decoration: none;
+}
+main .activities .act .act-style .introduction .infomore .more-text {
+  background-color: #c89348;
+  border-color: #c89348;
+  box-shadow: rgba(255, 255, 255, 0.14902) 0px 1px 0px inset;
+  text-shadow: rgba(0, 0, 0, 0.298039) 0px -0.5px 0px;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+  transition: 0.15s linear;
+  padding: 10px;
+}
+main .activities .act .act-style .introduction .infomore .more-text a {
+  color: #fff;
+  display: block;
+}
+main .activities .act .act-style .introduction .infomore .more-text:hover {
+  color: #fff;
+  background-color: #dca24f;
+  border-color: #dca24f;
+}
+main .activities .act .act-style .introduction .infomore .more-text:hover a:hover {
+  text-decoration: none;
+}
+main .activities .act .news-info .category,
+main .activities .act .news-info .release {
+  color: #989898;
+}
+.modewoman .product-more a {
+  color: burlywood;
+  transition: all 0.518s;
+}
+.modewoman .product-more a:hover {
+  color: #23527c;
+  text-decoration: none;
+}
+.modewoman .modewoman-content .content {
+  padding-left: 2px;
+  padding-right: 2px;
+}
+.modewoman .modewoman-content .content .content-box {
+  padding: 0;
+  background-color: #F8F8F8;
+}
+.modewoman .modewoman-content .content .caption p {
+  font-size: 12px;
+  line-height: 100%;
+  color: #8d8d8d;
+}
+.text-line {
+  border-bottom: 1px solid gainsboro;
+}
+.text-height {
+  height: 20px;
+}
+.cooperation {
+  background-color: white;
+}
+.cooperation .thumbnail {
+  border: 0;
+}
+.cooperation img {
+  width: 40%;
+}
+.cooperation p {
+  font-size: 12px;
+  line-height: 170%;
+  color: #8d8d8d;
+}
+.cooperation .clearfix .label {
+  display: inline-block;
+  margin-bottom: 5px;
+  padding: 10px 15px;
+  background: #f6f6f6;
+  cursor: pointer;
+  color: #979797;
+  transition: 0.15s ease-out;
+  white-space: unset;
+}
+.cooperation .clearfix .label:hover {
+  color: #fff;
+  border-color: #000;
+  background: #000;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+.friendly-link {
+  background-color: white;
+}
+.friendly-link .fri-content .img-content {
+  border: 0;
+}

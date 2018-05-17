@@ -1,0 +1,47 @@
+
+main{
+    
+    .thumbnail{border: 0;}
+//  .clearfix{margin-top: 5px;}
+    
+    .details-left{
+        transition: all 0.6s linear;
+        
+        .woman{
+            .vip{background: #f0ad4e;color: white;padding: 5px;}
+            .name{color: red;}
+            .city{background-color: #337ab7;color: white;width: 100px;padding: 5px;}
+            .hight{background-color: #000000;color: white;padding: 5px;width: 150px;}
+            .bust{background-color: #000000;color: white;padding: 5px;width: 150px;}
+            .waistline{background-color: #000000;color: white;padding: 5px;width: 150px;}
+            .hips{background-color: #000000;color: white;padding: 5px;}
+            .foot{background-color: #000000;color: white;padding: 5px;}
+            .hair{background-color: #000000;color: white;padding: 5px;}
+            .eyes{background-color: #000000;color: white;padding: 5px;}
+            
+            .btn{
+                width: 100%;
+                background-color: #f0ad4e;
+                border: 0;
+            }
+        }
+        
+    }
+    
+    .details-left:hover{
+         box-shadow: 0 0px 15px rgba(0, 0, 0, 0.3);
+    }
+    
+    
+    .details-right{
+        transition: all 0.6s linear;
+    }
+    
+    .details-right:hover{
+        box-shadow: 0 0px 15px rgba(0, 0, 0, 0.3);
+    }
+    .advertisement{
+        line-height: 190%;
+    }
+    
+}

@@ -1,0 +1,106 @@
+
+	<div class="footer-back container">
+
+		<div class="row clearfix ">
+			<div class="col-md-12 column">
+				<div class="row clearfix">
+					<div class="col-md-3 column">
+						<h4 class="text-left">
+								关于
+							</h4>
+						<ul class="text-left">
+							<li>
+								<a href="about.html">
+									关于我们
+								</a>
+								
+							</li>
+							<li>
+								加入我们
+							</li>
+							<li>
+								隐私政策
+							</li>
+							<li>
+								防骗说明
+							</li>
+							<li>
+								市场/商业合作
+							</li>
+							<li>
+								投资与资本
+							</li>
+							<li>
+								艺人/经纪合作
+							</li>
+
+						</ul>
+					</div>
+					<div class="col-md-3 column">
+						<h4>
+								服务
+							</h4>
+						<ul>
+							<li>
+								服务1VS1
+							</li>
+							<li>
+								买家秀拍摄
+							</li>
+							<li>
+								短视频拍摄
+							</li>
+							<li>
+								直播合作
+
+							</li>
+
+						</ul>
+					</div>
+					<div class="col-md-3 column">
+						<h4>
+								招募计划
+							</h4>
+						<ul>
+							<li>
+								模特招募
+							</li>
+							<li>
+								SHOWGIRL 招募
+							</li>
+							<li>
+								SHOWGIRL 招募
+							</li>
+							<li>
+								时尚美女招募
+							</li>
+
+						</ul>
+					</div>
+					<div class="col-md-3 column">
+						<h4>
+								更多
+							</h4>
+						<ul>
+							<li>
+								微信订花
+							</li>
+							<li>
+								成都鲜花预定
+							</li>
+							<li>
+								成都花店送花
+							</li>
+							<li>
+								成都花店
+							</li>
+
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container footer_word">
+		<p class="row clearfix text-center">页面：站点地图 | 成都美女 | 成都车模 | 成都模特 标签：模特公司 | 成都模特兼职 | 成都商务模特 | 成都糖酒会模特 | 成都模特公司 | 成都礼仪模特 COPYRIGHT 成都模特 ALL RIGHTS RESERVED. 版权所有，抄袭必究</p>
+	</div>

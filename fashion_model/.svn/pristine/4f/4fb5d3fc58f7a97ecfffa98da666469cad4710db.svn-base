@@ -1,0 +1,45 @@
+main > .container-fluid{
+	background: #F8F8F8;
+}
+main > .container-fluid > .container > .row > .column{
+	background: white;
+	transition: all 0.6s linear;
+	border-left: 5px solid silver;
+	border-bottom: 3px solid silver;
+}
+main > .container-fluid > .container > .row > .column:hover{
+	box-shadow: 0 0px 15px rgba(0, 0, 0, 0.3);
+}
+
+#tabs-452057 li{
+	clear: both;
+}
+main .nav-tabs{
+	border: 0;
+}
+main #tabs-452057 li a{
+	border: 0;
+	border-radius: 0;
+	color: darkgray;
+	transition: all 0.6s linear;
+}
+main #tabs-452057 li a:hover{
+	color: black;
+	background: whitesmoke;
+}
+main > .container-fluid > .container > .row .breadcrumb{
+	background: #c89348;
+	color: white;
+	text-align: center;
+	border-radius: 0;
+}
+main > .container-fluid > .container > .row > .col-md-9{
+	padding: 45px;
+	line-height: 30px;
+}
+main > .container-fluid > .container > .row > .col-md-9 > .tab-content > .tab-pane .thumbnail{
+	border: 0;
+}
+main > .container-fluid > .container > .row > .col-md-9 > .tab-content > .tab-pane h4{
+	margin-top: 40px;
+}

@@ -1,0 +1,60 @@
+@charset"UTF-8";
+//声明该css文件使用utf-8编码。当文件保存为utf-8编码时,其中的注释文字将正常显示。否则注释乱码。
+
+/*
+* 模块化
+*/
+
+//@import "footer.less";
+//@import "header.less";
+main {
+    background: #F8F8F8;
+    .lunbo {
+        img {
+            width: 100%;
+        }
+    }
+    .activities {
+        img {
+            width: 100%;
+            transition: all 0.1s linear;
+            border: 2px solid white;
+        }
+        img:hover {
+            width: 100%;
+            border: 2px solid red;
+        }
+        .act {
+            margin-top: 50px;
+            .act-style {
+                margin-top: 5px;
+                border-radius: 0;
+                .thumbnail-text {
+                    border-radius: 0;
+                    border: 0px;
+                    padding: 11px;
+                }
+                .introduction {
+                    padding: 30px;
+                }
+                .news-info {
+                    dt {
+                        width: 9%;
+                    }
+                    dd {
+                        margin-left: 0;
+                    }
+                }
+            }
+        }
+    }
+    //友情链接    
+    .friendly-link {
+        background-color: white;
+        .fri-content{
+            .img-content{
+                border: 0;
+            }
+        }
+    }
+}

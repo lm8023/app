@@ -1,0 +1,40 @@
+// 字体样式
+.rounded-corners (@color: #ababab, @font: normal 13px Microsoft YaHei) {
+    color: @color;
+    font: @font;
+}
+
+
+/*
+* 模块化
+*/
+
+//@import "header.less";
+footer {
+    background: #363636;
+    color: #a4a4a4;
+    .footer-back {
+        border-bottom: 1px solid black;
+        .column {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            ul {
+                padding-left: 0;
+            }
+        }
+    }
+    .footer_word {
+        p {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    }
+    a {
+        .rounded-corners;
+        transition: all 0.518s;
+    }
+    a:hover {
+        color: #c70046;
+        text-decoration: none;
+    }
+}

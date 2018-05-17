@@ -1,0 +1,48 @@
+/*
+* 模块化
+*/
+
+.rounded-corners (@color: #286090, @font: normal 14px Microsoft YaHei) {
+    color: @color;
+    font: @font;
+}
+
+main {
+    background-color: #F8F8F8;
+    .rounded-corners;
+    .thumbnail {
+        border: none;
+    }
+    .fashiontext {
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+    .col-md-9 {
+        background-color: #FFFFFF;
+    }
+    h2 {
+        .rounded-corners(#0f0f0f, normal 23px Microsoft YaHei);
+    }
+    p {
+        line-height: 40px;
+    }
+    .panel {
+        cursor: pointer;
+    }
+    //动画
+    .shadow {
+        cursor: pointer;
+        transition: all 0.6s linear;
+    }
+    .shadow:hover {
+        box-shadow: 0 0px 15px rgba(0, 0, 0, 0.3);
+    }
+    a {
+        color: #c3924d;
+        cursor: pointer;
+        transition: all 0.6s linear;
+    }
+    a:hover {
+        color: #337ab7;
+    }
+}

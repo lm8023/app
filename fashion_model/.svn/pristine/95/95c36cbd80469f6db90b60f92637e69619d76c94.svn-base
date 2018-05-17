@@ -1,0 +1,52 @@
+
+		 <!--menu-->
+	        <div class="header-menu container-fluid">
+
+	        	<!--navbar-inverse背景色 与 颜色-->
+	            <nav class="menu navbar-default navbar-inverse" role="navigation">
+	                <div class="container-fluid header-menu">
+
+
+	                	<div class="col-lg-1  col-md-1  col-sm-1  col-xs-1"></div>
+
+	                    <div class="">
+	                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
+	                            <span class="sr-only">切换导航</span>
+	                            <span class="icon-bar"></span>
+	                            <span class="icon-bar"></span>
+	                            <span class="icon-bar"></span>
+	                        </button>
+	                       <a class="navbar-brand nav-logo" href="index.html"><span></span></a>
+	                    </div>
+
+	                    <div class=" collapse navbar-collapse col-lg-12  col-md-12  col-sm-12  col-xs-12" id="example-navbar-collapse">
+	                        <ul class="nav navbar-nav">
+	                            <li ><a href="index.html"> 模特首页 </a></li>
+
+								<li><a href="model.html"> 模特库 </a></li>
+								<li>
+									<a href="mode-card.html"> 模特卡 </a>
+								</li>
+								<li>
+									<a href="recruit.html"> 招募计划 </a>
+								</li>
+								<li>
+									<a href="biz.html"> 企业合作 </a>
+								</li>
+								<li>
+									<a href="live-broadcast.html"> 网红直播 </a>
+								</li>
+						
+								<li>
+									<a href="fashion.html"> 时尚生活 </a>
+								</li>
+								<li class=" other-city">
+									<a href="site.html"> 其他城市 </a>
+								</li>
+	                        </ul>
+	                    </div>
+	                </div>
+	            </nav>
+	        </div>
+
+<script type="text/javascript" src="js/header.js"></script>

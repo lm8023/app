@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+	<head>
+		<meta charset="utf-8">
+		<title>买家秀服务</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<script src="js/jquery-3.2.1.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+		<link rel="stylesheet" type="text/css" href="css/buyshow.css" />
+		<link rel="stylesheet" href="css/index.css">
+		<link rel="stylesheet" href="css/header.css">
+		<link rel="stylesheet" href="css/footer.css">
+		<!--ico-->
+		<link rel="shortcut icon" href="img/favicon.ico" />
+	</head>
+
+	<body>
+		<header></header>
+
+		<main>
+			<div class="container-fluid">
+				<div class="container">
+					<!--买家秀-->
+					<div class="row clearfix">
+						<div class="col-md-12 column">
+							<h3>买家秀拍摄服务</h3>
+							<hr />
+							<div class="thumbnail">
+								<img alt="300x200" src="img/buyshow/banner-maijiaxiu.jpg" />
+							</div>
+						</div>
+					</div>
+					<!--服务优势-->
+					<div class="row clearfix">
+						<div class="col-md-12 column">
+							<div class="breadcrumb">
+								<h3>服务优势</h3>
+							</div>
+							<ol class="list-ol">
+								<li>
+									专业：全程提供专业下单引导
+								</li>
+								<li>
+									优质资源：甄选优质时尚资源，筛选行业优质麻豆，艺人。而她们都具备应有的专业素养和产出效力。
+								</li>
+								<li>
+									快速高效。
+								</li>
+							</ol>
+						</div>
+					</div>
+					<!--美妆护肤案例-->
+					<div class="row clearfix">
+						<div class="col-md-12 column">
+							<div class="breadcrumb">
+								<h3>美妆护肤案例</h3>
+							</div>
+
+							<div class="thumbnail">
+								<img alt="300x200" src="img/buyshow/buyshow01.jpg" />
+							</div>
+
+						</div>
+					</div>
+					<!--服装搭配案例-->
+					<div class="row clearfix">
+						<div class="col-md-12 column">
+							<div class="breadcrumb">
+								<h3>服装搭配案例</h3>
+							</div>
+
+							<div class="thumbnail">
+								<img alt="300x200" src="img/buyshow/buyshow02.jpg" />
+							</div>
+
+						</div>
+					</div>
+					<!--鞋帽箱包案例-->
+					<div class="row clearfix">
+						<div class="col-md-12 column">
+							<div class="breadcrumb">
+								<h3>鞋帽箱包案例</h3>
+							</div>
+
+							<div class="thumbnail">
+								<img alt="300x200" src="img/buyshow/buyshow03.jpg" />
+							</div>
+
+						</div>
+					</div>
+					<!--注意事项-->
+					<div class="row clearfix">
+						<div class="col-md-12 column">
+							<div class="breadcrumb">
+								<h3>注意事项</h3>
+							</div>
+							<ol class="list-ol">
+								<li>
+									一般收到产品后就会立即安排模特预约，第二天开始拍摄。
+								</li>
+								<li>
+									拍摄细节请与客服沟通详细，例如腰带，领子，配饰等需要特别注意及展示的。拍摄后在提出的，我们不负责重拍！
+								</li>
+								<li>
+									拍摄设备分为专业级和优质级，专业级使用专业的拍摄器材，优质级以手机和自拍神器为主。
+								</li>
+								<li>
+									客户提出没明确的判断，以及严重脱离实际价格质量的，模特不够漂亮等个人主观判断的，以及拍完再与客服沟通拍摄细节的，我们不负责重拍。
+								</li>
+								<li>
+									如需高品质专业网红模特短视频拍摄服，
+									<a href="video.html">请点击这里</a>
+								</li>
+							</ol>
+						</div>
+					</div>
+					<!--马上联系我们-->
+					<div class="row clearfix">
+						<div class="col-md-12 column">
+							<div class="breadcrumb">
+								<h3>马上联系我们</h3>
+							</div>
+							<div class="row clearfix" id="contact-img">
+								<div class="col-md-4 column">
+									<img src="img/code.jpg" />
+									<p class="text-center mTop">马上联系负责人</p>
+								</div>
+								<div class="col-md-4 column">
+									<img src="img/video/WxPay.jpg" />
+									<p class="text-center mTop">服务费定金付款</p>
+								</div>
+								<div class="col-md-4 column">
+									<img src="img/qrcode.jpg" />
+									<p class="text-center mTop">关注微信公众号</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="container-fluid"></footer>
+		<script src="js/header.js"></script>
+	</body>
+
+</html>

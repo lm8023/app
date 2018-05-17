@@ -1,0 +1,17 @@
+@charset "UTF-8";
+/*
+* 模块化
+*/
+main .container {
+  cursor: pointer;
+  padding: 60px;
+  box-sizing: border-box;
+}
+main .thumbnail {
+  border-radius: 0;
+  border: 0;
+  transition: all 0.6s linear;
+}
+main .thumbnail:hover {
+  box-shadow: 0 0px 15px rgba(0, 0, 0, 0.3);
+}

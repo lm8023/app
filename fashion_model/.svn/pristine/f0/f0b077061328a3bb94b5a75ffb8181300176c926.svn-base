@@ -1,0 +1,30 @@
+/*
+* 模块化
+*/
+footer {
+  background: #363636;
+  color: #a4a4a4;
+}
+footer .footer-back {
+  border-bottom: 1px solid black;
+}
+footer .footer-back .column {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+footer .footer-back .column ul {
+  padding-left: 0;
+}
+footer .footer_word p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+footer a {
+  color: #ababab;
+  font: normal 13px Microsoft YaHei;
+  transition: all 0.518s;
+}
+footer a:hover {
+  color: #c70046;
+  text-decoration: none;
+}

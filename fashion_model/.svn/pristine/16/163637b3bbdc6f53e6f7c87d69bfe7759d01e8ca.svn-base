@@ -1,0 +1,120 @@
+
+// 字体样式
+.rounded-corners (@color: #757575,@font:normal 13px Microsoft YaHei) {
+  color:@color;
+  font:@font;
+}
+
+a  { text-decoration: none; }
+a:hover{ text-decoration: none; }
+ul { list-style: none; }
+
+
+
+header{
+    
+    .rounded-corners;
+    
+    //logo  
+     .nav-logo{
+        width: 100px;
+        background: url(../img/logo.png) no-repeat center;
+        background-size: cover;    
+     }
+     
+     //菜单栏
+     .header-menu{
+         padding-left: 0;
+         padding-right: 0;
+         
+         nav{
+             li{
+                 margin-left: 10px;
+             }
+         }         
+     }
+   
+    
+    
+}
+
+
+
+
+main{
+    
+    @star_height: 50px;
+    
+    .home_star{
+        height: @star_height;
+//      background: pink;
+        cursor: pointer;
+        
+        
+        .container{
+            
+            height:@star_height;
+            overflow: hidden;
+            background: white;
+            
+           .box{width: 16500px;}
+            
+            
+            
+           .info-titie:hover{text-decoration: none; }
+       
+            .info-titie
+            {
+                   float: left;
+                   color: #000000;
+                    width: 1500px;
+                    line-height: @star_height;
+                    position:relative;         
+                    display: inline-block;
+                    animation-delay:4s;
+                    -webkit-animation-delay:4s; //!* 等待2秒然后开始动画*!
+                    transition:margin-left 1s ease;
+                    animation:mymove 15s 2s linear infinite;
+                    -webkit-animation:mymove 15s 2s linear infinite;
+                    /*Safari and Chrome  infinite是无限次重复*/
+                    
+//                  animation-direction:alternate;
+                    /*反向移动*/
+                   
+                  span{
+                      color: white;
+                      height: @star_height;
+                      background: #c3924d;
+                      display: inline-block;
+                    
+                  } 
+                 
+                   
+              }     
+             @keyframes mymove 
+             {
+                  from {
+                        left: 0;
+                     }
+                     to {
+                         left: -1240px;
+                      }
+              }
+              
+              @-webkit-keyframes mymove
+              /*Safari and Chrome*/
+              
+              {
+                  from {left: 0; }
+                  to {left: -1240px; }
+              }
+          
+        }
+    }
+    
+
+
+
+    
+    
+}

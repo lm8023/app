@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../css/bootstrap.css" />
+		<link rel="stylesheet" type="text/css" href="mode-card-parson.css" />
+	</head>
+
+	<body>
+		<main>
+			<div class="container-fluid">
+				<div class="container">
+					<div class="row clearfix">
+						<div class="col-md-12 column">
+
+							<div id="card">
+								<h1>xxx</h1>
+								<hr />
+								<p>idxxxx</p>
+								<div class="thumbnail">
+									<img src="../img/moder-card/31.jpg" />
+								</div>
+							</div>
+							
+							<a id="modal-919469" href="#modal-container-919469" role="button" class="btn" data-toggle="modal">触发遮罩窗体</a>
+							<div class="modal fade" id="modal-container-919469" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+								<div class="modal-dialog">
+									<div class="modal-content">
+										<div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+											<h4 class="modal-title" id="myModalLabel">
+												标题
+											</h4>
+										</div>
+										<div class="modal-body">
+											内容...
+										</div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-default" data-dismiss="modal">关闭</button> <button type="button" class="btn btn-primary">保存</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<script src="../js/jquery-3.2.1.js"></script>
+		<script src="../js/bootstrap.js"></script>
+	</body>
+
+</html>

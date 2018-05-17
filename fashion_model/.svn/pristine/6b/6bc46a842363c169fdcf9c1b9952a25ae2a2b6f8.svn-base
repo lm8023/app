@@ -1,0 +1,102 @@
+$(function () {
+    $.ajax({
+        //请求的方式
+        type:'get',
+        //请求的url
+        url:'php/model.php',
+        //异步(true)还是同步(false)
+        async:true,
+        //参数传递
+        data:{},
+        //返回的数据类型
+        dataType:'json',
+        //请求成功，响应的数据，res返回数据
+        success:function(res){
+            test(res);
+        },error:function(res){
+            console.log(res);
+        }
+    });
+    function test(r){
+        var str="";
+        var page="";
+        var n=12;
+        for(var i=0;i<Math.ceil((r.length)/n);i++){//有多少个分页符(分多少几页)
+            page+="<li class='paging'><a href='jsvascript:(0)'>"+(i+1)+"</a></li>";
+        }
+        $(".row .pagination").html(page);
+        for(var i=0;i< n;i++)
+        {
+            str+="<section class='col-lg-3 col-md-4 col-sm-6 col-xs-6'>" +
+                "<a href='details.html'><div class='thumbnail del1'>" +
+                    "<div class='thumbnail del'><img alt='300x200' src='img/model/"+r[i].titleimg+"' title='"+r[i].name+"'>"+
+                    "<div class='text-center modelName'><span class='type'>"+r[i].class+"</span><span class='name'>"+r[i].name+"</span></div></div>"+
+                    "<div class='caption'>" +
+                    "<p class='text-center ids'>模特ID/<span>"+r[i].modelid+"</span><lable class='hidden'>"+r[i].id+"</lable></p>"+
+                    "<p class='text-center heat'>热度值/<span>"+r[i].heat+"</span></p>"+
+                "</div>"+
+                "</div></a>" +
+                "</section>";
+        }
+        $(".models").html(str);
+        Paging(r,n);
+    }
+    $(".row").on("mouseenter","section",function(){
+        $(this).find("img").addClass("op");
+        $(this).find(".modelName").stop().animate({opacity:"1",},500);
+    });
+    $(".row").on("mouseleave","section",function(){
+        $(this).find("img").removeClass("op");
+        $(this).find(".modelName").stop().animate({opacity:"0"},500);
+    });
+    $(".row").on("click",".thumbnail",function () {
+       $id=$(this).find("lable").html();
+       if(sessionStorage.ModelID)
+           sessionStorage.ModelID=$id;
+       else
+           sessionStorage.ModelID=$id;
+    });
+    function Paging(data,n){
+        $(".pagination li").eq(0).addClass("active");
+        var strs="";
+        $(".pagination").on("click","li",function(){
+            var num=parseInt($(this).children(0).html());
+            sessionStorage.num=num;
+            $(this).addClass("active").siblings().removeClass("active");
+           var len=$(".pagination li").length;
+            if(num<=len-1){
+                for(var p=n*(num-1);p<n*num;p++){
+                    strs+="<section class='col-lg-3 col-md-4 col-sm-6 col-xs-6'>" +
+                        "<a href='details.html'><div class='thumbnail del1'>" +
+                        "<div class='thumbnail del'><img alt='300x200' src='img/model/"+data[p].titleimg+"' title='"+data[p].name+"'>"+
+                        "<div class='text-center modelName'><span class='type'>"+data[p].class+"</span><span class='name'>"+data[p].name+"</span></div></div>"+
+                        "<div class='caption'>" +
+                        "<p class='text-center ids'>模特ID/<span>"+data[p].modelid+"</span><lable class='hidden'>"+data[p].id+"</lable></p>"+
+                        "<p class='text-center heat'>热度值/<span>"+data[p].heat+"</span></p>"+
+                        "</div>"+
+                        "</div></a>" +
+                        "</section>";
+                }
+            }
+            else{
+                for(var p=n*(num-1);p<data.length;p++){
+                    strs+="<section class='col-lg-3 col-md-4 col-sm-6 col-xs-6'>" +
+                        "<a href='details.html'><div class='thumbnail del1'>" +
+                        "<div class='thumbnail del'><img alt='300x200' src='img/model/"+data[p].titleimg+"' title='"+data[p].name+"'>"+
+                        "<div class='text-center modelName'><span class='type'>"+data[p].class+"</span><span class='name'>"+data[p].name+"</span></div></div>"+
+                        "<div class='caption'>" +
+                        "<p class='text-center ids'>模特ID/<span>"+data[p].modelid+"</span><lable class='hidden'>"+data[p].id+"</lable></p>"+
+                        "<p class='text-center heat'>热度值/<span>"+data[p].heat+"</span></p>"+
+                        "</div>"+
+                        "</div></a>" +
+                        "</section>";
+                    console.log(p);
+                }
+            }
+            $(".models").html(" ");
+            $(".models").html(strs);
+            strs="";
+        });
+    }
+});
+

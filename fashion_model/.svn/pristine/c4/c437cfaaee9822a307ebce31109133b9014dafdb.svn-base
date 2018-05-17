@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<title>模特卡</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+		<link rel="stylesheet" href="css/header.css">
+		<link rel="stylesheet" href="css/footer.css">
+		<link rel="stylesheet" type="text/css" href="css/mode-card.css" />
+		<!--ico-->
+		<link rel="shortcut icon" href="img/favicon.ico"  />
+	</head>
+
+	<body>
+		<header></header>
+
+		<main>
+			<div class="container-fluid">
+				<div class="container">
+					<div class="row clearfix">
+						<div class="col-md-12 column">
+							<hr />
+							<div class="thumbnail">
+								<img alt="140x140" src="img/moder-card/moka.jpg" />
+							</div>
+							<div class="thumbnail">
+								<img alt="140x140" src="img/moder-card/banner-jingji.jpg" />
+							</div>
+						</div>
+					</div>
+					<div class="row clearfix">
+						<div class="col-md-12 column">
+							<h3>
+								模特Card
+							</h3>
+							<div class="row clearfix">
+								<div class="col-md-12 column" id="card-list">
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="container-fluid"></footer>
+		<script src="js/jquery-3.2.1.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<script src="js/jquery-lazyload.js"></script>
+		<script src="js/mode-card.js"></script>
+		
+		<script src="js/header.js"></script>
+	</body>
+
+</html>

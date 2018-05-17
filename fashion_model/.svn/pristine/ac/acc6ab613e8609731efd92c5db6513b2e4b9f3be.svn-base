@@ -1,0 +1,47 @@
+$(function () {
+   $newsID=sessionStorage.NewsID;
+   console.log($newsID);
+    $.ajax({
+        //请求的方式
+        type:'get',
+        //请求的url
+        url:'php/fashiontext.php',
+        //异步(true)还是同步(false)
+        async:true,
+        //参数传递
+        data:{"newsID":$newsID},
+        //返回的数据类型
+        dataType:'json',
+        //请求成功，响应的数据，res返回数据
+        success:function(res){
+           // test(res);
+            console.log("ok");
+            console.log(res);
+        },error:function(res){
+            console.log(res);
+            console.log("!")
+        }
+    });
+    function test(data)
+    {
+        $(".vip").html(data[0].class);
+        $(".name").html(data[0].name);
+        $(".titleimg").find("img").prop("src","img/model/"+data[0].titleimg+"");
+        $(".city").find("span").html(data[0].city);
+        $(".hight").find("span").html(data[0].hight);
+        $(".bust").find("span").html(data[0].bust);
+        $(".waistline").find("span").html(data[0].waistline);
+        $(".hips").find("span").html(data[0].hips);
+        $(".foot").find("span").html(data[0].foot);
+        $(".hair").find("span").html(data[0].hair);
+        $(".eyes").find("span").html(data[0].eyes);
+        $(".advertisement").html(data[0].advertisementInfo);
+        $imgInfo=data[0].imgInfo.split(",");
+        var str="";
+        for(var i=0;i<$imgInfo.length;i++)
+        {
+            str+="<img src='img/model/"+$imgInfo[i]+"'>";
+        }
+        $(".imgInfo").html(str);
+    }
+});

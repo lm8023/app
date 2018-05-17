@@ -1,0 +1,77 @@
+/*
+* 模块化
+*/
+
+.rounded-corners (@color: #c3924d, @font: normal 14px Microsoft YaHei) {
+    color: @color;
+    font: @font;
+}
+
+main {
+    background-color: #F8F8F8;
+    .rounded-corners;
+    .thumbnail {
+        border: none;
+    }
+    a {
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: none;
+    }
+    .col-md-9 {
+        .live-content {
+            background-color: #FFFFFF;
+            margin-bottom: 20px;
+        }
+    }
+    .fashiontext {
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+    .container {
+        .quote {
+            color: #fae2bf;
+            font-size: 13px;
+            line-height: 180%;
+            background: #c89348;
+            display: block;
+            border-left: 5px solid #a77834;
+            border-right: 5px solid #a77834;
+            //      margin-bottom: 20px;
+        }
+        .live-content {
+            padding: 15px;
+            img {
+                display: block;
+                max-width: 100%;
+                height: auto;
+            }
+            p {
+                color: #616161;
+                font-size: 16px;
+            }
+            small {
+                color: #bfbfbf;
+                margin-right: 10px;
+            }
+        }
+    }
+    //颜色动画
+    a {
+        color: #c3924d;
+        cursor: pointer;
+        transition: all 0.6s linear;
+    }
+    a:hover {
+        color: #337ab7;
+    }
+    //阴影动画
+    .shadow {
+        cursor: pointer;
+        transition: all 0.6s linear;
+    }
+    .shadow:hover {
+        box-shadow: 0 0px 15px rgba(0, 0, 0, 0.3);
+    }
+}

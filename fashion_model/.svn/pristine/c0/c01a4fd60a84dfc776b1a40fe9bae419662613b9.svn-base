@@ -1,0 +1,33 @@
+main > .container-fluid{
+	background: #F8F8F8;
+}
+main .container-fluid>.container>.row{
+	background: white;
+	transition: all 0.6s linear;
+	text-align: center;
+	padding:20px 45px;
+}
+main .container-fluid>.container>.row:hover{
+	box-shadow: 0 0px 15px rgba(0, 0, 0, 0.3);
+}
+main #card p{
+	font-size: 18px;
+}
+main .container-fluid>.container>.row .thumbnail{
+	border-radius: 0;
+}
+main #modal-919469{
+	width: 130px;
+	height: 50px;
+	background: gainsboro;
+	color: black;
+	font-size: 18px;
+	line-height: 37px;
+	transition: all 0.6s linear;
+}
+main #modal-919469:hover{
+	box-shadow: 0 0px 15px rgba(0, 0, 0, 0.3);
+	background: black;
+	color: white;
+	font-size: 20px;
+}

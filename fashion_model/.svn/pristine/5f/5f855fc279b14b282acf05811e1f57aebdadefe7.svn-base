@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>成都模特网企业合作</title>
+		<link rel="stylesheet" type="text/css" href="../css/bootstrap.css" />
+		<link rel="stylesheet" type="text/css" href="../css/biz.css" />
+		<link rel="stylesheet" type="text/css" href="../css/header.css" />
+		<link rel="stylesheet" type="text/css" href="../css/footer.css" />
+	</head>
+
+	<body>
+		
+		
+	<header>
+		 <!--menu-->
+	        <div class="header-menu container-fluid">
+	        	
+	        	<!--navbar-inverse背景色 与 颜色-->
+	            <nav class="menu navbar-default navbar-inverse" role="navigation">
+	                <div class="container-fluid header-menu">
+	                	
+	                	
+	                	<div class="col-lg-1  col-md-1  col-sm-1  col-xs-1"></div>
+	                	
+	                    <div class="">                  
+	                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
+	                            <span class="sr-only">切换导航</span>
+	                            <span class="icon-bar"></span>
+	                            <span class="icon-bar"></span>
+	                            <span class="icon-bar"></span>
+	                        </button>
+	                       <a class="navbar-brand nav-logo" href="../index.html"><span></span></a>                                         
+	                    </div>
+	
+	                    <div class=" collapse navbar-collapse col-lg-12  col-md-12  col-sm-12  col-xs-12" id="example-navbar-collapse">
+	                        <ul class="nav navbar-nav">
+	                            <li class=""><a href="../index.html"> 模特首页 </a></li>
+	                           	<li class=""><a href="#"> 成都模特 </a></li>
+								<li><a href="#"> 模特库 </a></li>
+								<li>
+									<a href="#"> 模特卡 </a>
+								</li>
+								<li>
+									<a href="#"> 招募计划 </a>
+								</li>
+								<li>
+									<a href="html/biz.html"> 企业合作 </a>
+								</li>
+								<li>
+									<a href="#"> 网红直播 </a>
+								</li>
+								<li>
+									<a href="#"> 行业防骗 </a>
+								</li>
+								<li>
+									<a href="#"> 时尚生活 </a>
+								</li>
+								<li class=" other-city">
+									<a href="#"> 其他城市 </a>
+								</li>
+	                        </ul>
+	                    </div>
+	                </div>
+	            </nav>
+	        </div>
+
+		</header>
+
+		
+		<main>
+			<div class="container-fluid">
+			<div class="container">
+				<div class="row clearfix box">
+					<div class="col-md-12 column">
+						<h3>
+						成都模特网企业合作
+					</h3>
+						<hr />
+						<div class="thumbnail">
+							<img src="../img/biz/biz-01.jpg" />
+						</div>
+					</div>
+				</div>
+				<div class="row clearfix">
+					<div class="col-md-12 column">
+						<ul class="breadcrumb">
+							<li class="active">
+								企业
+							</li>
+							<li class="active">
+								商家
+							</li>
+						</ul>
+						<ol class="list-ol">
+							<li>
+								商业企业全案策划营销，事件营销，视觉营销，商业品牌全案策划，品牌代言
+							</li>
+							<li>
+								花椒，映客等直播平台网红主播，现场直播活动。
+							</li>
+							<li>
+								产品拍摄，商业摄影。
+							</li>
+							<li>
+								电商运营，互联网项目咨询。网站／微信／APP/小程序开发。
+							</li>
+						</ol>
+					</div>
+				</div>
+				<div class="row clearfix">
+					<div class="col-md-12 column">
+						<ul class="breadcrumb">
+							<li class="active">
+								策划活动公司
+							</li>
+						</ul>
+						<ol class="list-ol">
+							<li>
+								影视／选秀／招募，节目嘉宾推介，选秀活动组织，影视剧演员招募，空姐招聘。
+							</li>
+							<li>
+								礼仪会展活动，各类车展、新闻发布会、产品推介会展示会、招商会、商务演艺公关活动和各种文化交流活动等。
+							</li>
+							<li>
+								大陆港台艺人明星代理：一线明星代理，品牌代言，广告植入。
+							</li>
+							<li>
+								鲜花批发，礼品，红酒定制。
+							</li>
+						</ol>
+					</div>
+				</div>
+				<div class="row clearfix">
+					<div class="col-md-12 column">
+						<ul class="breadcrumb">
+							<li class="active">
+								摄影爱好者
+							</li>
+						</ul>
+						<ol class="list-ol">
+							<li>
+								摄影爱好者拍摄支持
+							</li>
+							<li>
+								摄影协会社团拍摄活动模特提供。
+							</li>
+						</ol>
+					</div>
+				</div>
+				<div class="row clearfix" id="contact">
+					<div class="col-md-12 column">
+						<ul class="breadcrumb">
+							<li class="active">
+								马上联系我们
+							</li>
+						</ul>
+						<hr />
+						<div class="row clearfix" id="contact-img" >
+							<div class="col-md-6 column" >
+								<img src="../img/code.jpg"/>
+							</div>
+							<div class="col-md-6 column" >
+								<img src="../img/qrcode.jpg"/>
+							</div>
+						</div>
+						<hr />
+						<p>
+							成都模特网是成都梁道科技旗下互联网品牌，梁道科技涉及领域包括技术开发，微信运营，互联网运营培训，品牌策划包装，广告代理，生鲜线上售卖，金融贷款等。合作客户包括壹基金，漫咖啡，奔驰，奇瑞等知名品牌。
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+			
+		</main>
+		
+	
+	
+	
+	<footer class="container-fluid">
+		 <div class="footer-back container">
+	
+	<div class="row clearfix ">
+		<div class="col-md-12 column">
+			<div class="row clearfix">
+				<div class="col-md-3 column">
+					<h4 class="text-left">
+								关于
+							</h4>
+					<ul class="text-left">
+						<li>
+							关于我们
+						</li>
+						<li>
+							加入我们
+						</li>
+						<li>
+							隐私政策
+						</li>
+						<li>
+							防骗说明
+						</li>
+						<li>
+							市场/商业合作
+						</li>
+						<li>
+							投资与资本
+						</li>
+						<li>
+							艺人/经纪合作
+						</li>
+					
+					</ul>
+				</div>
+				<div class="col-md-3 column">
+					<h4>
+								服务
+							</h4>
+					<ul>
+						<li>
+							服务1VS1
+						</li>
+						<li>
+							买家秀拍摄
+						</li>
+						<li>
+							短视频拍摄
+						</li>
+						<li>
+							直播合作
+
+						</li>
+					
+					</ul>
+				</div>
+				<div class="col-md-3 column">
+					<h4>
+								招募计划
+							</h4>
+					<ul>
+						<li>
+							模特招募
+						</li>
+						<li>
+							SHOWGIRL 招募
+						</li>
+						<li>
+							SHOWGIRL 招募
+						</li>
+						<li>
+							时尚美女招募
+						</li>
+				
+					</ul>
+				</div>
+				<div class="col-md-3 column">
+					<h4>
+								更多
+							</h4>
+					<ul>
+						<li>
+							微信订花
+						</li>
+						<li>
+							成都鲜花预定
+						</li>
+						<li>
+							成都花店送花
+						</li>
+						<li>
+							成都花店
+						</li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+		     <div class="container footer_word">
+            <p class="row clearfix text-center">页面：站点地图 | 成都美女 | 成都车模 | 成都模特
+标签：模特公司 | 成都模特兼职 | 成都商务模特 | 成都糖酒会模特 | 成都模特公司 | 成都礼仪模特 
+COPYRIGHT 成都模特 ALL RIGHTS RESERVED. 版权所有，抄袭必究</p>
+        </div>
+		</footer>
+
+
+	
+		<script src="../js/jquery-3.2.1.js"></script>
+		<script src="../js/bootstrap.js"></script>
+	</body>
+</html>

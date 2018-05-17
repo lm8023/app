@@ -1,0 +1,68 @@
+.container-fluid {
+	background: url(../img/back03.jpg) no-repeat;
+	background-size: cover;
+	min-height: 948px;
+}
+
+@media only screen and (max-width: 992px) {
+	.container-fluid {
+		background-position: center 0;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+		
+	}
+}
+#userId{
+	padding: 20px;
+}
+#land_box img {
+	height: 100px;
+}
+.navbar-default {
+	background: rgba(255, 255, 255, 0.6);
+}
+
+
+#land_box {
+	background: rgba(255, 255, 255, 0.6);
+	border-radius: 3px;
+	text-align: center;
+}
+
+#customer-box {
+	background: #f5f5f5;
+	border-radius: 3px;
+}
+
+
+#userId {
+	word-wrap: break-word;
+	word-break: break-all;
+}
+#customerInformation p{
+	cursor: pointer;
+	padding: 25px 0;
+	font-size: 14px;
+}
+#customerInformation p:hover{
+	background: #ff9595;
+	color: white;
+	border-radius: 4px;
+}
+
+#customerInformation span{
+	padding: 0 10px;
+}
+#btn-fixed{
+	position: fixed;
+	top: 72px;
+	right: 21em;
+	height: 100px;
+	background: rgba(255, 255, 255, 0.7);
+}
+.navbar-form {
+	position: fixed;
+	top: 65px;
+	right: 4em;
+}

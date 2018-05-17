@@ -1,0 +1,8 @@
+
+
+
+$(".nav li").click(function(){
+//	alert('dd');
+//	$(this).addClass("active")
+//	.siblings().removeClass("active");
+})

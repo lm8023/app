@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>官方经纪人服务1VS1</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	
+		<link rel="stylesheet" href="css/header.css">
+		<link rel="stylesheet" href="css/footer.css">
+		<link rel="stylesheet" type="text/css" href="css/agent.css" />
+		<script src="js/jquery-3.2.1.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<link href="css/bootstrap.css" rel="stylesheet">
+
+		<!--字体图标链接-->
+		<link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+
+		<!--矢量图-->
+		<link rel="stylesheet" href="http://at.alicdn.com/t/font_536556_k79yrdkujrhyf1or.css">
+
+		<!--兼容(小于ie9加载js文件)-->
+		<!--[if lt IE 9]>
+        <!--<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>-->
+		<!--<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>-->
+		<!--<![endif]&ndash;&gt;-->
+
+	</head>
+
+	<body>
+
+
+		<!--头部文件引入-->	
+		<header></header>
+
+		<script>
+			$(function(){		
+			    $('header').load('header.html');		  
+			})
+		</script>
+
+		
+		
+		<main>
+			<div class="container-fluid">
+				<div class="container">
+					
+					<div class="row clearfix box">
+						<div class="col-md-12 column">
+							<h3>
+								官方经纪人服务1VS1
+							</h3>
+							<hr />
+							<div class="thumbnail">
+								<img alt="300x200" src="img/agent/banner-jingji.jpg" />
+							</div>
+						</div>
+					</div>
+					
+					<div class="row clearfix">
+						<div class="col-md-12 column">
+							<ul class="breadcrumb">
+								<li class="active">
+									服务优势
+								</li>
+							</ul>
+							<ol class="list-ol">
+								<li>
+									专业：全程提供专业下单引导
+								</li>
+								<li>
+									优质资源：甄选优质时尚资源，筛选行业优质麻豆，艺人。而她们都具备应有的专业素养和产出效力。
+								</li>
+								<li>
+									快速高效。
+								</li>
+							
+							</ol>
+						</div>
+					</div>
+					
+					<div class="row clearfix">
+						<div class="col-md-12 column">
+							<ul class="breadcrumb">
+								<li class="active">
+									服务流程
+								</li>
+							</ul>
+							<hr />
+							<div class="thumbnail">
+								<img alt="300x200" src="img/agent/liucheng.jpg" />
+								<br />
+								* 协议签订后，您缴纳的经纪服务定金将纳入合同总费用
+							</div>
+						</div>
+					</div>
+					
+					<div class="row clearfix">
+						<div class="col-md-12 column">
+							<ul class="breadcrumb">
+								<li class="active">
+									服务标准
+								</li>
+							</ul>
+							<ol class="list-ol">
+								<li>
+									推荐内容：根据客户要求提供模特详细资料（擅长风格，身高，体重，三围，价格费用）
+								</li>
+								<li>
+									 推荐形式：模特作品链接或模卡，如有进一步需要可提供视频及其他影像资料
+								</li>
+								<li>
+									服务时间：在缴纳服务费用后，工作时间内（am10:00~pm18:00）官方工作人员会与您取得联系，请务必留意手机或微信。
+								</li>
+								<li>
+									专业指导：经纪人根据产品属性为客户提供专业性指导意见。
+								</li>
+							</ol>
+						</div>
+					</div>
+					
+					<div class="row clearfix">
+						<div class="col-md-12 column">
+							<ul class="breadcrumb">
+								<li class="active">
+									注意事项
+								</li>
+							</ul>
+							<span style="color: red;">如有以下任意情况，不退还服务费用。</span>
+							<ol class="list-ol">
+
+								<li>
+									选定意向模特或艺人，并进入线下面试，视频面试等实际接触阶段。
+								</li>
+								<li>
+									 未经许可，私下联系模特或艺人。
+								</li>
+								<li>
+									私房拍摄，商务伴游等需求。
+									 
+								</li>
+								
+							</ol>
+						</div>
+					</div>
+	
+					<div class="row clearfix" id="contact">
+						<div class="col-md-12 column">
+							<ul class="breadcrumb">
+								<li class="active">
+									马上联系我们
+								</li>
+							</ul>
+							<hr />
+							<div class="row clearfix" id="contact-img">
+								<div class="text-center col-md-6 column">
+									<img src="img/code.jpg" />
+									<p>马上联系我们</p>
+								</div>
+								<div class="col-md-6 column">
+									<img src="img/qrcode.jpg" />
+								</div>
+							</div>
+							<hr />
+							<p>
+								成都模特网是成都梁道科技旗下互联网品牌，梁道科技涉及领域包括技术开发，微信运营，互联网运营培训，品牌策划包装，广告代理，生鲜线上售卖，金融贷款等。合作客户包括壹基金，漫咖啡，奔驰，奇瑞等知名品牌。
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+		</main>
+			
+			
+		<!--尾部文件引入-->	
+		<footer class="container-fluid"></footer>
+
+		<script>
+			$(function(){		
+			    $('footer').load('footer.html');		  
+			})
+		</script>		
+		
+
+		<script src="js/jquery-3.2.1.js"></script>
+		<script src="js/bootstrap.js"></script>
+	</body>
+</html>

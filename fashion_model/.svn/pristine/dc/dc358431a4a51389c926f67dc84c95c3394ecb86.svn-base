@@ -1,0 +1,50 @@
+function mode_card() {
+//	var xmlhttp; //全局的对象的变量
+//	if(window.XMLHttpRequest) { //判断浏览器的兼容性
+//		xmlhttp = new XMLHttpRequest(); //new 对象，针对高版本
+//	} else {
+//		xmlhttp = new ActiveXObject("Microsoft.XMLHTTP"); //IE6,IE5
+//	}
+//	xmlhttp.open('GET', php文件, true);
+//	xmlhttp.send();
+//	xmlhttp.onreadystatechange = function() {
+//		if(xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+//			var json = JSON.parse(xmlhttp.responseText);
+			var n = 9; //每一页有几个内容
+			for(var i = 0; i < Math.ceil((33) / n); i++) { //有多少个分页符(分多少几页)
+				var w = (100 / (Math.ceil((33) / n)) - 1); //每一个分页符的宽度百分比
+				var mar = (100 - w * Math.ceil((33) / n)) / Math.ceil((33) / n); //每个分页符的margin的百分比
+				document.getElementById("paging-list").innerHTML += '<li class="num" ><span>' + parseInt(i + 1) + '</span></div>'
+			}
+			var card = "";
+			for(var i = 0; i < n; i++) {
+				card += '<div class="thumbnail">' +
+						'<div class="text" style="top:60px;">'+'模特'+i+
+						'</div>'+
+						'<div class="text" style="left: 130px;top: 20px;">'+'ID'+i+
+						'</div>'+
+						'<img class="lazy" data-original="../img/moder-card/0' + i + '.jpg" src="test"/>' +
+						'</div>'
+			}
+			$("card-list").html(card);
+			var num1 = $(".num"); //获取分页符class名
+			for(var s = 0; s < num1.length; s++) { //遍历每一个分页符
+				num1[s].onclick = function() {
+					$("#card-list").html('');
+					var card1 = "";
+					for(var p = n * (parseInt(this.children[0].innerHTML) - 1); p < n * parseInt(this.children[0].innerHTML); p++) {
+						card1 += '<div class="thumbnail">' +
+						'<div class="text" style="top:60px;">'+'模特'+p+
+						'</div>'+
+						'<div class="text" style="left: 130px;top: 20px;">'+'ID'+p+
+						'</div>'+
+						'<img class="lazy" data-original="../img/moder-card/0' + p + '.jpg" />' +
+						'</div>'
+					}
+					$("#card-list").html(card1);//输出模特卡
+				}
+			}
+		}
+//	}
+//}
+mode_card()

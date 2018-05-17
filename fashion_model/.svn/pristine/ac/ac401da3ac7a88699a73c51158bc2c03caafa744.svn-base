@@ -1,0 +1,53 @@
+main > .container-fluid{
+	background: #F8F8F8;
+}
+main > .container-fluid > .container{
+	background: white;
+}
+main > .container-fluid > .container .clearfix:nth-child(1){
+	padding-top: 30px;
+}
+
+main .thumbnail{
+	border: 0;
+}
+main .breadcrumb{
+	background: #383838;
+	border-radius: 0;
+	padding: 15px 15px;
+	margin: 20px auto;
+}
+main .breadcrumb >.active{
+	color: #E5E5E5	;
+}
+main .list-ol li{
+	line-height: 25px;
+}
+main #contact{
+	box-sizing: border-box;
+}
+main #contact-img{
+	text-align: center;
+	display: flex;
+}
+main #contact-img > .column{
+	flex: 1;
+}
+main #contact-img img{
+	width: 30%;
+	max-width: 170px;
+	min-width: 120px;
+	height: auto;
+}
+main #contact p{
+	text-indent:2em;
+	padding: 25px 50px;
+}
+
+main .container>.row{
+	transition: all 0.6s linear;
+}
+main .container>.row:hover {
+  box-shadow: 0 0px 15px rgba(0, 0, 0, 0.3);
+
+}

@@ -1,0 +1,46 @@
+@charset "UTF-8";
+/*
+* 模块化
+*/
+main {
+  background: #F8F8F8;
+}
+main .lunbo img {
+  width: 100%;
+}
+main .activities img {
+  width: 100%;
+  transition: all 0.1s linear;
+  border: 2px solid white;
+}
+main .activities img:hover {
+  width: 100%;
+  border: 2px solid red;
+}
+main .activities .act {
+  margin-top: 50px;
+}
+main .activities .act .act-style {
+  margin-top: 5px;
+  border-radius: 0;
+}
+main .activities .act .act-style .thumbnail-text {
+  border-radius: 0;
+  border: 0px;
+  padding: 11px;
+}
+main .activities .act .act-style .introduction {
+  padding: 30px;
+}
+main .activities .act .act-style .news-info dt {
+  width: 9%;
+}
+main .activities .act .act-style .news-info dd {
+  margin-left: 0;
+}
+main .friendly-link {
+  background-color: white;
+}
+main .friendly-link .fri-content .img-content {
+  border: 0;
+}

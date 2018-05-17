@@ -1,0 +1,15 @@
+.thumbnail {
+	border: 0;
+}
+.text{
+    	width: 120px;
+    	height: 40px;
+    	background: pink;
+    	text-align: center;
+    	line-height: 40px;
+    	position: relative;
+    }
+    .lazy {
+				width: 100%;
+				margin-bottom: 30px;
+			}

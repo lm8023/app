@@ -1,0 +1,15 @@
+main > .container-fluid{
+	background: #F8F8F8;
+}
+main .container-fluid>.container>.row{
+	background: white;
+	transition: all 0.6s linear;
+	text-align: center;
+	padding:20px 45px;
+}
+main .container-fluid>.container>.row:hover{
+	box-shadow: 0 0px 15px rgba(0, 0, 0, 0.3);
+}
+main #card p{
+	font-size: 18px;
+}

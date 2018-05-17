@@ -1,0 +1,58 @@
+
+a{
+    text-decoration: none;
+}
+.thumbnail{
+    /*cursor: pointer;*/
+    position: relative;
+}
+.modelName{
+    position: absolute;
+    top:220px;
+    width: 97%;
+    background-color:#000;
+    color: white;
+}
+.op{
+    /*opacity: .2;
+    -webkit-transition:all 1s;
+    -moz-transition: all 1s;
+    transition: all 1s;*/
+}
+.type,.name{
+    color: white;
+}
+
+
+.op{
+	 -webkit-transition:all 1s;
+    -moz-transition: all 1s;
+    transition: all 1s;
+}
+
+
+.op:hover{
+	 filter: url(blur.svg#blur); /* FireFox, Chrome, Opera */
+    
+    -webkit-filter: blur(10px); /* Chrome, Opera */
+       -moz-filter: blur(10px);
+        -ms-filter: blur(10px);    
+            filter: blur(10px);
+    
+    filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=7, MakeShadow=false); /* IE6~IE9 */
+
+	
+}
+
+
+.models a:hover{
+	text-decoration: none;
+}
+
+.models .thumbnail img{
+	 
+}
+
+.models .thumbnail img:hover{
+
+}

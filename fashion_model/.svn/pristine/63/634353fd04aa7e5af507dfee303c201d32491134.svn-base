@@ -1,0 +1,35 @@
+/*
+* 模块化
+*/
+main {
+  background-color: #F8F8F8;
+  color: #286090;
+  font: normal 14px Microsoft YaHei;
+}
+main .thumbnail {
+  border: none;
+}
+main .fashiontext {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+main .col-md-9 {
+  background-color: #FFFFFF;
+}
+main h2 {
+  color: #0f0f0f;
+  font: normal 23px Microsoft YaHei;
+}
+main p {
+  line-height: 40px;
+}
+main .panel {
+  cursor: pointer;
+}
+main .shadow {
+  cursor: pointer;
+  transition: all 0.6s linear;
+}
+main .shadow:hover {
+  box-shadow: 0 0px 15px rgba(0, 0, 0, 0.3);
+}

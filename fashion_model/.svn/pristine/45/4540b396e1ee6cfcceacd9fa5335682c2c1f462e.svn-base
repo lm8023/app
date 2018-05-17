@@ -1,0 +1,26 @@
+function mode_card_parson() {
+	var moderId = localStorage.moderId;
+	var xmlhttp; //全局的对象的变量
+	if(window.XMLHttpRequest) { //判断浏览器的兼容性
+		xmlhttp = new XMLHttpRequest(); //new 对象，针对高版本
+	} else {
+		xmlhttp = new ActiveXObject("Microsoft.XMLHTTP"); //IE6,IE5
+	}
+	xmlhttp.open('GET', 'php/mode-card-parson.php?moderId=' + moderId, true);
+	xmlhttp.send();
+	xmlhttp.onreadystatechange = function() {
+		if(xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+			var json = JSON.parse(xmlhttp.responseText);
+			var card = "";
+			card += '<h1>' + json[0].moderName + '</h1>' +
+				'<hr />' +
+				'<p>模特ID：' + moderId + '</p>' +
+				'<div class="thumbnail">' +
+				'<img src="img/moder-card/' + json[0].imgUrl + '" />' +
+				'</div>'
+
+			$("#card").html(card);
+		}
+	}
+}
+mode_card_parson()

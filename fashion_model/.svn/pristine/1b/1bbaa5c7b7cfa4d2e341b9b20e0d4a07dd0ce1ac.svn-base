@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<meta charset="UTF-8">
+		<title>模特网</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<script src="js/jquery-3.2.1.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<link href="css/bootstrap.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/index.css">
+		<link rel="stylesheet" href="css/header.css">
+		<link rel="stylesheet" href="css/footer.css">
+		<!--ico-->
+		<link rel="shortcut icon" href="img/favicon.ico" />
+		<!--字体图标链接-->
+		<link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+		<!--矢量图-->
+		<link rel="stylesheet" href="http://at.alicdn.com/t/font_536556_k79yrdkujrhyf1or.css">
+		<!--兼容(小于ie9加载js文件)-->
+		<!--[if lt IE 9]>
+        <!--<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>-->
+		<!--<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>-->
+		<!--<![endif]&ndash;&gt;-->
+	</head>
+	<body>
+		<!--头部文件引入-->
+		<header></header>
+		<main>
+			<!--轮播  data-interval="3000"  轮播时间-->
+			<div class="column lunbo">
+				<div class="carousel slide" id="carousel-271592" data-ride="carousel">
+					<ol class="carousel-indicators">
+						<li class="active" data-slide-to="0" data-target="#carousel-271592">
+						</li>
+						<li data-slide-to="1" data-target="#carousel-271592">
+						</li>
+						<li data-slide-to="2" data-target="#carousel-271592">
+						</li>
+						<li data-slide-to="3" data-target="#carousel-271592">
+						</li>
+					</ol>
+					<div class="carousel-inner">
+						<div class="item active">
+							<img alt="" src="img/index/banner-01.jpg" />
+						</div>
+						<div class="item">
+							<img alt="" src="img/index/banner-05.png" />
+						</div>
+						<div class="item">
+							<img alt="" src="img/index/banner-03.png" />
+						</div>
+						<div class="item">
+							<img alt="" src="img/index/banner-04.png" />
+						</div>
+					</div>
+					<a class="left carousel-control" href="#carousel-271592" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+					<a class="right carousel-control" href="#carousel-271592" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+				</div>
+			</div>
+			<!--新闻滚动-->
+			<div class="home_star ">
+				<div class="container">
+					<div class="box">
+						<a class="info-titie"><span>2018/10/10 </span> 服装品牌拍摄，需要有些特色的模特，服装风格兼具时尚与复古。网红脸的不要。 要求： 1、提供模卡／照片； 2、视频（演出 or 自我介绍） 3、费用说明 事项： 长期合作，气质偏时尚复古。 *封面图与内容无关 </a>
+						<a class="info-titie"><span>2018/10/10 </span> 服装品牌拍摄，需要有些特色的模特，服装风格兼具时尚与复古。网红脸的不要。 要求： 1、提供模卡／照片； 2、视频（演出 or 自我介绍） 3、费用说明 事项： 长期合作，气质偏时尚复古。 *封面图与内容无关 </a>
+						<a class="info-titie"><span>2018/10/10 </span> 服装品牌拍摄，需要有些特色的模特，服装风格兼具时尚与复古。网红脸的不要。 要求： 1、提供模卡／照片； 2、视频（演出 or 自我介绍） 3、费用说明 事项： 长期合作，气质偏时尚复古。 *封面图与内容无关 </a>
+						<a class="info-titie"><span>2018/10/10 </span> 服装品牌拍摄，需要有些特色的模特，服装风格兼具时尚与复古。网红脸的不要。 要求： 1、提供模卡／照片； 2、视频（演出 or 自我介绍） 3、费用说明 事项： 长期合作，气质偏时尚复古。 *封面图与内容无关 </a>
+						<a class="info-titie"><span>2018/10/10 </span> 服装品牌拍摄，需要有些特色的模特，服装风格兼具时尚与复古。网红脸的不要。 要求： 1、提供模卡／照片； 2、视频（演出 or 自我介绍） 3、费用说明 事项： 长期合作，气质偏时尚复古。 *封面图与内容无关 </a>
+					</div>
+				</div>
+			</div>
+			<!--活动介绍-->
+			<div class="container activities">
+				<div class="row clearfix">
+					<div class="col-md-12 column">
+						<div class="row clearfix">
+							<div class="col-md-6 column act">
+								<!--商业服务-->
+								<div class="row clearfix ">
+									<div class="col-md-12 column ">
+										<a href="biz.html" target="_blank">
+											<img alt="140x140" src="img/index/product-01.jpg" />
+										</a>
+									</div>
+								</div>
+								<!--官方经纪人服务1VS1-->
+								<div class="row clearfix act-style">
+									<div class="col-md-12 column">
+										<a class="thumbnail thumbnail-text shadow" href="agent.html" target="_blank">
+											<img alt="140x140" src="img/index/product-03.jpg" />
+										</a>
+									</div>
+								</div>
+								<!--买家秀 网红模特-->
+								<div class="row clearfix act-style">
+									<div class="col-md-12 column">
+										<a class="thumbnail thumbnail-text shadow" href="buyshow.html" target="_blank">
+											<img alt="140x140" src="img/index/product-04.jpg" />
+										</a>
+									</div>
+								</div>
+								<!--同期短视频拍摄-->
+								<div class="row clearfix act-style">
+									<div class="col-md-12 column">
+										<a class="thumbnail thumbnail-text shadow" href="video.html" target="_blank">
+											<img alt="140x140" src="img/index/product-05.jpg" />
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 column act">
+								<!--我是模特-->
+								<div class="row clearfix ">
+									<div class="col-md-12 column ">
+										<a href="live-broadcast.html" target="_blank">
+											<img alt="140x140" src="img/index/product-02.jpg" />
+										</a>
+									</div>
+								</div>
+								<!--模特介绍-->
+								<div class="row clearfix act-style thumbnail  shadow ">
+									<div class="col-md-12 introduction news">
+										<!--一行信息-->
+										<div class="row clearfix ">
+											<div class="panel-body thumbnail thumbnail-text shadow">
+												<div class="col-md-3 ">
+													<img src="img/fashion/fashionlife-01.jpg" alt="" />
+												</div>
+												<div class="col-md-9 column">
+													<p class='newbtn'>
+														<a class="titltext" href="fashiontext.html">从时尚之都米兰到浪漫之都巴黎</a>
+														<label class='hidden'>1</label>
+													</p>
+													<div class=" news-info">
+														<p class="category"><b>类别: </b>活动通知</p>
+														<p class="release"><b>发布: </b>2017/11/22</p>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="row clearfix">
+											<div class="panel-body thumbnail thumbnail-text shadow">
+												<div class="col-md-3 ">
+													<img src="img/fashion/fashionlife-02.jpg" alt="" />
+												</div>
+												<div class="col-md-9 column">
+													<p class='newbtn'>
+														<a class="titltext" href="fashiontext.html">
+															除了《欢乐颂》里安迪喝的水 还有哪些水超高端？
+														</a>
+														<label class='hidden'>2</label>
+													</p>
+													<div class=" news-info">
+														<p class="category"><b>类别: </b>活动通知</p>
+														<p class="release"><b>发布: </b>2017/11/22</p>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="row clearfix">
+											<div class="panel-body thumbnail thumbnail-text shadow">
+												<div class="col-md-3 ">
+													<img src="img/fashion/fashionlife-03.jpg" alt="" />
+												</div>
+												<div class="col-md-9 column">
+													<p class='newbtn'>
+														<a class="titltext" href="fashiontext.html">
+															拜这款指甲油所赐 终于尝到最地道的“吮指“原味鸡
+														</a>
+														<label class='hidden'>3</label>
+													</p>
+													<div class=" news-info">
+														<p class="category"><b>类别: </b>活动通知</p>
+														<p class="release"><b>发布: </b>2017/11/22</p>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="row clearfix">
+											<div class="panel-body thumbnail thumbnail-text shadow">
+												<div class="col-md-3 ">
+													<img src="img/fashion/fashionlife-04.jpg" alt="" />
+												</div>
+												<div class="col-md-9 column">
+													<p class='newbtn'>
+														<a class="titltext" href="fashiontext.html">
+															带你窥探《欢乐颂》里安迪的家
+														</a>
+														<label class='hidden'>4</label>
+													</p>
+													<div class=" news-info">
+														<p class="category"><b>类别: </b>活动通知</p>
+														<p class="release"><b>发布: </b>2017/11/22</p>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="text-height"></div>
+										<div class="infomore row clearfix text-center">
+											<div class="more-text">
+												<a href="fashion.html">
+													&lt;查看更多通告 &gt;
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row clearfix">
+					<div class="col-md-12 column">
+						<div class="row clearfix">
+							<div class="col-md-6 column ">
+								<!--网红直播-->
+								<div class="row clearfix act-style">
+									<div class="col-md-12 column  ">
+										<a class="thumbnail thumbnail-text shadow" href="live-broadcast.html" target="_blank">
+											<img alt="140x140" src="img/index/product-07.jpg" />
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 column ">
+								<!--模特招募-->
+								<div class="row clearfix act-style">
+									<div class="col-md-12 column">
+										<a class="thumbnail thumbnail-text shadow" href="buyshow.html" target="_blank">
+											<img alt="140x140" src="img/index/product-08.jpg" />
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<!--红人榜-->
+			<div class="container modewoman">
+				<div class="row clearfix">
+					<div class="col-md-12 column">
+						<section class="product-title col-lg-12 col-md-12 col-sm-12 col-xs-12">
+							<div class="container page-header">
+								<h3 class="">红人榜 <small>Red man list</small></h3>
+								<div class="product-more  text-right">
+									<a href="model.html">查看更多>></a>
+								</div>
+							</div>
+						</section>
+						<section class="product-content col-lg-12 col-md-12 col-sm-12 col-xs-12 modewoman-content">
+							<div class="container">
+								<div class="row clearfix">
+									<div class="row">
+										<div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 content">
+											<div class="thumbnail shadow content-box">
+												<p class="newbtn">
+													<a href="details.html"><img alt="300x200" src="img/model/zhilin.jpg" /></a>
+													<lable class="hidden">1</lable>
+												</p>
+												<div class="caption">
+													<p class="text-left">模特ID/218</p>
+													<p class="text-left">热度值/1,145 ℃</p>
+												</div>
+											</div>
+										</div>
+										<div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 content">
+											<div class="thumbnail shadow content-box">
+												<p class="newbtn">
+													<a href="details.html"><img alt="300x200" src="img/model/xiaoyan.jpg" /></a>
+													<lable class="hidden">2</lable>
+												</p>
+												<div class="caption">
+													<p class="text-left">模特ID/218</p>
+													<p class="text-left">热度值/1,145 ℃</p>
+												</div>
+											</div>
+										</div>
+										<div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 content">
+											<div class="thumbnail shadow content-box">
+												<p class="newbtn">
+													<a href="details.html"><img alt="300x200" src="img/model/Katherine.jpg" /></a>
+													<lable class="hidden">3</lable>
+												</p>
+												<div class="caption">
+													<p class="text-left">模特ID/218</p>
+													<p class="text-left">热度值/1,145 ℃</p>
+												</div>
+											</div>
+										</div>
+										<div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 content">
+											<div class="thumbnail shadow content-box">
+												<p class="newbtn">
+													<a href="details.html"><img alt="300x200" src="img/model/Barbie.jpg" /></a>
+													<lable class="hidden">4</lable>
+												</p>
+												<div class="caption">
+													<p class="text-left">模特ID/218</p>
+													<p class="text-left">热度值/1,145 ℃</p>
+												</div>
+											</div>
+										</div>
+										<div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 content">
+											<div class="thumbnail shadow content-box">
+												<p class="newbtn">
+													<a href="details.html"><img alt="300x200" src="img/model/Cher.jpg" /></a>
+													<lable class="hidden">5</lable>
+												</p>
+												<div class="caption">
+													<p class="text-left">模特ID/218</p>
+													<p class="text-left">热度值/1,145 ℃</p>
+												</div>
+											</div>
+										</div>
+										<div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 content">
+											<div class="thumbnail shadow content-box">
+												<p class="newbtn">
+													<a href="details.html"><img alt="300x200" src="img/model/Yuri.jpg" /></a>
+													<lable class="hidden">6</lable>
+												</p>
+												<div class="caption">
+													<p class="text-left">模特ID/218</p>
+													<p class="text-left">热度值/1,145 ℃</p>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 content">
+											<div class="thumbnail shadow content-box">
+												<p class="newbtn">
+													<a href="details.html"><img alt="300x200" src="img/model/ziying.jpg" /></a>
+													<lable class="hidden">7</lable>
+												</p>
+												<div class="caption">
+													<p class="text-left">模特ID/218</p>
+													<p class="text-left">热度值/1,145 ℃</p>
+												</div>
+											</div>
+										</div>
+										<div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 content">
+											<div class="thumbnail shadow content-box">
+												<p class="newbtn">
+													<a href="details.html"><img alt="300x200" src="img/model/yeye.jpg" /></a>
+													<lable class="hidden">8</lable>
+												</p>
+												<div class="caption">
+													<p class="text-left">模特ID/218</p>
+													<p class="text-left">热度值/1,145 ℃</p>
+												</div>
+											</div>
+										</div>
+										<div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 content">
+											<div class="thumbnail shadow content-box">
+												<p class="newbtn">
+													<a href="details.html"><img alt="300x200" src="img/model/mengyao.jpg" /></a>
+													<lable class="hidden">9</lable>
+												</p>
+												<div class="caption">
+													<p class="text-left">模特ID/218</p>
+													<p class="text-left">热度值/1,145 ℃</p>
+												</div>
+											</div>
+										</div>
+										<div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 content">
+											<div class="thumbnail shadow content-box">
+												<p class="newbtn">
+													<a href="details.html"><img alt="300x200" src="img/model/xiaoruo.jpg" /></a>
+													<lable class="hidden">10</lable>
+												</p>
+												<div class="caption">
+													<p class="text-left">模特ID/218</p>
+													<p class="text-left">热度值/1,145 ℃</p>
+												</div>
+											</div>
+										</div>
+										<div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 content">
+											<div class="thumbnail shadow content-box">
+												<p class="newbtn">
+													<a href="details.html"><img alt="300x200" src="img/model/Jolle.jpg" /></a>
+													<lable class="hidden">11</lable>
+												</p>
+												<div class="caption">
+													<p class="text-left">模特ID/218</p>
+													<p class="text-left">热度值/1,145 ℃</p>
+												</div>
+											</div>
+										</div>
+										<div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 content">
+											<div class="thumbnail shadow content-box">
+												<p class="newbtn">
+													<a href="details.html"><img alt="300x200" src="img/model/ranran.jpg" /></a>
+													<lable class="hidden">12</lable>
+												</p>
+												<div class="caption">
+													<p class="text-left">模特ID/218</p>
+													<p class="text-left">热度值/1,145 ℃</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+					</div>
+				</div>
+			</div>
+			<!--新锐榜-->
+			<div class="container modewoman">
+				<div class="row clearfix">
+					<div class="col-md-12 column">
+						<section class="product-title col-lg-12 col-md-12 col-sm-12 col-xs-12">
+							<div class="container page-header">
+								<h3 class="">新锐榜 <small>New product</small></h3>
+								<div class="product-more  text-right">
+									<a href="model.html">查看更多>></a>
+								</div>
+							</div>
+						</section>
+						<section class="product-content col-lg-12 col-md-12 col-sm-12 col-xs-12 modewoman-content">
+							<div class="container">
+								<div class="row clearfix">
+									<div class="row">
+										<div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 content">
+											<div class="thumbnail shadow content-box">
+												<p class="newbtn">
+													<a href="details.html"><img alt="300x200" src="img/model/junjun.jpg" /></a>
+													<lable class="hidden">13</lable>
+												</p>
+												<div class="caption">
+													<p class="text-left">模特ID/218</p>
+													<p class="text-left">热度值/1,145 ℃</p>
+												</div>
+											</div>
+										</div>
+										<div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 content">
+											<div class="thumbnail shadow content-box">
+												<p class="newbtn">
+													<a href="details.html"><img alt="300x200" src="img/model/DemonQ.jpg" /></a>
+													<lable class="hidden">14</lable>
+												</p>
+												<div class="caption">
+													<p class="text-left">模特ID/218</p>
+													<p class="text-left">热度值/1,145 ℃</p>
+												</div>
+											</div>
+										</div>
+										<div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 content">
+											<div class="thumbnail shadow content-box">
+												<p class="newbtn">
+													<a href="details.html"><img alt="300x200" src="img/model/Ania.jpg" /></a>
+													<lable class="hidden">15</lable>
+												</p>
+												<div class="caption">
+													<p class="text-left">模特ID/218</p>
+													<p class="text-left">热度值/1,145 ℃</p>
+												</div>
+											</div>
+										</div>
+										<div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 content">
+											<div class="thumbnail shadow content-box">
+												<p class="newbtn">
+													<a href="details.html"><img alt="300x200" src="img/model/Masha.jpg" /></a>
+													<lable class="hidden">16</lable>
+												</p>
+												<div class="caption">
+													<p class="text-left">模特ID/218</p>
+													<p class="text-left">热度值/1,145 ℃</p>
+												</div>
+											</div>
+										</div>
+										<div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 content">
+											<div class="thumbnail shadow content-box">
+												<p class="newbtn">
+													<a href="details.html"><img alt="300x200" src="img/model/Anatasia.jpg" /></a>
+													<lable class="hidden">17</lable>
+												</p>
+												<div class="caption">
+													<p class="text-left">模特ID/218</p>
+													<p class="text-left">热度值/1,145 ℃</p>
+												</div>
+											</div>
+										</div>
+										<div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 content">
+											<div class="thumbnail shadow content-box">
+												<p class="newbtn">
+													<a href="details.html"><img alt="300x200" src="img/model/mokowm.jpg" /></a>
+													<lable class="hidden">18</lable>
+												</p>
+												<div class="caption">
+													<p class="text-left">模特ID/218</p>
+													<p class="text-left">热度值/1,145 ℃</p>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 content">
+											<div class="thumbnail shadow content-box">
+												<p class="newbtn">
+													<a href="details.html"><img alt="300x200" src="img/model/Maria.jpg" /></a>
+													<lable class="hidden">19</lable>
+												</p>
+												<div class="caption">
+													<p class="text-left">模特ID/218</p>
+													<p class="text-left">热度值/1,145 ℃</p>
+												</div>
+											</div>
+										</div>
+										<div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 content">
+											<div class="thumbnail shadow content-box">
+												<p class="newbtn">
+													<a href="details.html"><img alt="300x200" src="img/model/AdeliaB.jpg" /></a>
+													<lable class="hidden">20</lable>
+												</p>
+												<div class="caption">
+													<p class="text-left">模特ID/218</p>
+													<p class="text-left">热度值/1,145 ℃</p>
+												</div>
+											</div>
+										</div>
+										<div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 content">
+											<div class="thumbnail shadow content-box">
+												<p class="newbtn">
+													<a href="details.html"><img alt="300x200" src="img/model/DashaB.jpg" /></a>
+													<lable class="hidden">21</lable>
+												</p>
+												<div class="caption">
+													<p class="text-left">模特ID/218</p>
+													<p class="text-left">热度值/1,145 ℃</p>
+												</div>
+											</div>
+										</div>
+										<div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 content">
+											<div class="thumbnail shadow content-box">
+												<p class="newbtn">
+													<a href="details.html"><img alt="300x200" src="img/model/PolinaB.jpg" /></a>
+													<lable class="hidden">22</lable>
+												</p>
+												<div class="caption">
+													<p class="text-left">模特ID/218</p>
+													<p class="text-left">热度值/1,145 ℃</p>
+												</div>
+											</div>
+										</div>
+										<div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 content">
+											<div class="thumbnail shadow content-box">
+												<p class="newbtn">
+													<a href="details.html"><img alt="300x200" src="img/model/xinru.jpg" /></a>
+													<lable class="hidden">23</lable>
+												</p>
+												<div class="caption">
+													<p class="text-left">模特ID/218</p>
+													<p class="text-left">热度值/1,145 ℃</p>
+												</div>
+											</div>
+										</div>
+										<div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 content">
+											<div class="thumbnail shadow content-box">
+												<p class="newbtn">
+													<a href="details.html"><img alt="300x200" src="img/model/linmeng.jpg" /></a>
+													<lable class="hidden">24</lable>
+												</p>
+												<div class="caption">
+													<p class="text-left">模特ID/218</p>
+													<p class="text-left">热度值/1,145 ℃</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+					</div>
+				</div>
+			</div>
+			<!--合作项目介绍-->
+			<div class="container-fluid cooperation ">
+				<div class="container">
+					<div class="row clearfix">
+						<div class="col-md-12 column">
+							<div class="row clearfix">
+								<div class="col-md-12 column">
+									<h3 class="text-center">Fashion Model Cooperation Project</h3>
+								</div>
+							</div>
+							<div class="text-height"></div>
+							<div class="text-line"></div>
+							<div class="text-height"></div>
+							<div class="row clearfix">
+								<div class="col-md-12 column">
+									<p class="text-center">
+										Fashion Model 是目前国内新锐丽人开发与培养的专业品牌，垂直的优质人才聚集地
+										<br /> 涉及时尚文化开拓、品牌策划、时装发布，网红模特直播，事件营销，视觉营销，商业品牌全案策划，品牌代言多个领域
+									</p>
+								</div>
+							</div>
+							<div class="text-height"></div>
+							<div class="row clearfix">
+								<div class="col-md-2"></div>
+								<div class="col-md-8 column text-center">
+									<span class="label">成都模特</span>
+									<span class="label">事件营销</span>
+									<span class="label">视觉营销</span>
+									<span class="label">网红模特直播</span>
+									<span class="label">cheng du model</span>
+									<span class="label">品牌代言</span>
+									<span class="label">商业品牌全案策划</span>
+									<span class="label">影视剧演员招募</span>
+									<span class="label">空姐招聘</span>
+									<span class="label">选秀活动组织</span>
+									<span class="label">节目嘉宾推介</span>
+									<span class="label">成都模特经纪</span>
+									<span class="label">广告植入</span>
+									<span class="label">明星代理</span>
+									<span class="label">大陆港台艺人</span>
+									<span class="label">礼仪会展活动</span>
+									<span class="label">成都模特礼仪</span>
+									<span class="label">商务公关</span>
+									<span class="label">车展</span>
+									<span class="label">文化交流</span>
+								</div>
+								<div class="col-md-2"></div>
+							</div>
+							<div class="text-height"></div>
+							<div class="row clearfix">
+								<div class="col-md-12 column">
+									<div class="row clearfix">
+										<div class="col-md-6 column">
+											<div class="thumbnail">
+												<img alt="200x200" src="img/code.jpg" />
+												<div class="caption">
+													<p class="text-center">马上联系负责人</p>
+
+												</div>
+											</div>
+										</div>
+										<div class="col-md-6 column">
+											<div class="thumbnail">
+												<img alt="200x200" src="img/qrcode.jpg" />
+												<div class="caption">
+													<p class="text-center">关注微信公众号</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row clearfix">
+								<div class="col-md-2"></div>
+								<div class="col-md-8  column">
+									<p class="text-center label row">
+										Fashion Model 提供专业解决方案，集策划实施运营于一身，借助互联网平台的的优势实力为商业企业提供全方位的商业服务。
+									</p>
+								</div>
+								<div class="col-md-2"></div>
+							</div>
+							<div class="text-height"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="text-height"></div>
+			<!--友情链接-->
+			<div class="friendly-link container ">
+				<div class="row clearfix">
+					<div class="col-md-12 column fri-content">
+						<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+							<div class="thumbnail img-content shadow">
+								<img alt="300x200" src="img/friendly link-01.jpg" />
+							</div>
+						</div>
+						<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+							<div class="thumbnail img-content shadow">
+								<img alt="300x200" src="img/friendly link-02.jpg" />
+							</div>
+						</div>
+						<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+							<div class="thumbnail img-content shadow">
+								<img alt="300x200" src="img/friendly link-03.jpg" />
+							</div>
+						</div>
+						<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+							<div class="thumbnail img-content shadow">
+								<img alt="300x200" src="img/friendly link-04.jpg" />
+							</div>
+						</div>
+						<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+							<div class="thumbnail img-content shadow">
+								<img alt="300x200" src="img/friendly link-05.jpg" />
+							</div>
+						</div>
+						<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+							<div class="thumbnail img-content shadow">
+								<img alt="300x200" src="img/friendly link-06.jpg" />
+							</div>
+						</div>
+						<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+							<div class="thumbnail img-content shadow">
+								<img alt="300x200" src="img/friendly link-07.jpg" />
+							</div>
+						</div>
+						<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+							<div class="thumbnail img-content shadow">
+								<img alt="300x200" src="img/friendly link-08.jpg" />
+							</div>
+						</div>
+						<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+							<div class="thumbnail img-content shadow">
+								<img alt="300x200" src="img/friendly link-09.jpg" />
+							</div>
+						</div>
+						<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+							<div class="thumbnail img-content shadow">
+								<img alt="300x200" src="img/friendly link-10.jpg" />
+							</div>
+						</div>
+						<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+							<div class="thumbnail img-content shadow">
+								<img alt="300x200" src="img/friendly link-11.jpg" />
+							</div>
+						</div>
+						<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+							<div class="thumbnail img-content shadow">
+								<img alt="300x200" src="img/friendly link-12.jpg" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="text-height"></div>
+		</main>
+		<!--尾部文件引入-->
+		<footer class="container-fluid"></footer>
+		<script src="js/index.js"></script>
+		<script src="js/header.js"></script>
+		<script type="text/javascript" src="js/btn_top.js"></script>
+	</body>
+</html>

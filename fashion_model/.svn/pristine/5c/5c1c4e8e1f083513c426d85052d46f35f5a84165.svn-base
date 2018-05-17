@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'iconfont';
+  /* project id 536556 */
+  src: url('//at.alicdn.com/t/font_536556_k79yrdkujrhyf1or.eot');
+  src: url('//at.alicdn.com/t/font_536556_k79yrdkujrhyf1or.eot?#iefix') format('embedded-opentype'), url('//at.alicdn.com/t/font_536556_k79yrdkujrhyf1or.woff') format('woff'), url('//at.alicdn.com/t/font_536556_k79yrdkujrhyf1or.ttf') format('truetype'), url('//at.alicdn.com/t/font_536556_k79yrdkujrhyf1or.svg#iconfont') format('svg');
+}
+/*
+* 模块化
+*/
+footer {
+  background: #363636;
+  color: #a4a4a4;
+}
+footer .footer-back {
+  border-bottom: 1px solid black;
+}
+footer .footer-back .column {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+footer .footer-back .column ul {
+  padding-left: 0;
+}
+footer .footer_word p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

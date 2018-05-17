@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<meta charset="UTF-8">
+		<title>同款短视频拍摄</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<link rel="stylesheet" href="css/header.css">
+		<link rel="stylesheet" href="css/footer.css">
+		<link rel="stylesheet" type="text/css" href="css/video.css" />
+		<script src="js/jquery-3.2.1.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<link href="css/bootstrap.css" rel="stylesheet">
+		<!--字体图标链接-->
+		<link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+		<!--ico-->
+		<link rel="shortcut icon" href="img/favicon.ico"  />
+		<!--矢量图-->
+		<link rel="stylesheet" href="http://at.alicdn.com/t/font_536556_k79yrdkujrhyf1or.css">
+		<!--兼容(小于ie9加载js文件)-->
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<header></header>
+		<main>
+			<div class="container-fluid">
+				<div class="container">
+					<div class="row clearfix">
+						<div class="col-md-12 column">
+							<h3>
+							同款短视频拍摄
+						</h3>
+							<hr />
+							<div class="thumbnail">
+								<img alt="300x200" src="img/video/banner-shipin.jpg" />
+							</div>
+						</div>
+					</div>
+					<div class="row clearfix">
+						<div class="col-md-12 column">
+							<div class="breadcrumb">
+								<h3>服务优势</h3>
+							</div>
+							<ol class="list-ol">
+								<li>专业：全程提供专业下单引导</li>
+								<li>优质资源：甄选优质时尚资源，筛选行业优质麻豆，艺人。而她们都具备应有的专业素养和产出效力。</li>
+								<li>快速高效。</li>
+							</ol>
+						</div>
+					</div>
+					<div class="row clearfix">
+						<div class="col-md-12 column">
+							<div class="breadcrumb">
+								<h3>短视频案例 1</h3>
+							</div>
+							<div class="row clearfix">
+								<div class="col-md-6 column">
+									<video width="100%" controls>
+										<source src="img/video/pansiya.mp4" type="video/mp4">
+									</video>
+								</div>
+								<div class="col-md-6 column">
+									<p>身高:166 / 体重:45<br> 胸部:74 / 腰:60 / 臀：82</p><br>
+									<p>服务标准：<br> 摄影师拍摄:／条／10秒<br> 专业团队:／条／10秒</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12">
+									<div class="thumbnail">
+										<img alt="300x200" src="img/video/duan02.jpg" />
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row clearfix">
+						<div class="col-md-12 column">
+							<div class="breadcrumb">
+								<h3>短视频案例 2</h3>
+							</div>
+							<div class="row clearfix">
+								<div class="col-md-6 column">
+									<video width="100%" controls>
+										<source src="img/video/ting.mp4" type="video/mp4">
+									</video>
+								</div>
+								<div class="col-md-6 column">
+									<p>身高:168 / 体重:46<br> 胸部:76 / 腰:55 / 臀：78</p><br>
+									<p>服务标准：<br> 摄影师拍摄:／条／10秒<br> 专业团队:／条／10秒</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12">
+									<div class="thumbnail">
+										<img alt="300x200" src="img/video/duan04.jpg" />
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row clearfix">
+						<div class="col-md-12 column">
+							<div class="breadcrumb">
+								<h3>短视频案例 3</h3>
+							</div>
+							<div class="row clearfix">
+								<div class="col-md-6 column">
+									<video width="100%" controls>
+										<source src="img/video/chengsimin.mp4" type="video/mp4">
+									</video>
+								</div>
+								<div class="col-md-6 column">
+									<p>身高:162 / 体重:42<br> 胸部:78 / 腰:58 / 臀：82</p><br>
+									<p>服务标准：<br> 手机高清4K:条／10秒<br> 相机高清:条／10秒<br> 手机高清4K:条／30秒～60秒<br> 相机高清:条／30秒～60秒</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12">
+									<div class="thumbnail">
+										<img alt="300x200" src="img/video/duan03.jpg" />
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row clearfix">
+						<div class="col-md-12 column">
+							<div class="breadcrumb">
+								<h3>短视频案例 4</h3>
+							</div>
+							<div class="row clearfix">
+								<div class="col-md-6 column">
+									<video width="100%" controls>
+										<source src="img/video/fandaer.mp4" type="video/mp4">
+									</video>
+								</div>
+								<div class="col-md-6 column">
+									<p>身高:166 / 体重:45<br> 胸部:74 / 腰:60 / 臀：82</p><br>
+									<p>服务标准：<br> 相机高清:件／10秒<br> 相机高清:件／30秒～60秒</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12">
+									<div class="thumbnail">
+										<img alt="300x200" src="img/video/duan03 (1).jpg" />
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row clearfix">
+						<div class="col-md-12 column">
+							<div class="breadcrumb">
+								<h3>马上联系我们</h3>
+							</div>
+							<p>以上视频仅供参考！如果您也想拍摄同款段视频，可以马上联系我们！</p>
+							<div class="row clearfix" id="contact-img">
+								<div class="col-md-4 column">
+									<img src="img/code.jpg" />
+								</div>
+								<div class="col-md-4 column">
+									<img src="img/video/WxPay.jpg" />
+								</div>
+								<div class="col-md-4 column">
+									<img src="img/qrcode.jpg" />
+								</div>
+							</div>
+							<p>服务费定金付款</p>
+							<hr />
+							<p>成都模特网是成都梁道科技旗下互联网品牌，梁道科技涉及领域包括技术开发，微信运营，互联网运营培训，品牌策划包装，广告代理，生鲜线上售卖，金融贷款等。合作客户包括壹基金，漫咖啡，奔驰，奇瑞等知名品牌。</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="container-fluid"></footer>		
+		<script src="js/jquery-3.2.1.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<script src="js/header.js"></script>
+		<script type="text/javascript" src="js/btn_top.js"></script>
+	</body>
+</html>

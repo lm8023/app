@@ -1,0 +1,116 @@
+<div class="footer-back container">
+
+	<div class="row clearfix ">
+		<div class="col-md-12 column">
+			<div class="row clearfix">
+				<div class="col-md-3 column">
+					<h4 class="text-left">关于</h4>
+					<ul class="text-left">
+						<li>
+							<a href="about.html">关于我们</a>
+						</li>
+						<li>
+							<a href="about.html">加入我们</a>
+						</li>
+						<li>
+							<a href="about.html">隐私政策</a>
+						</li>
+						<li>
+							<a href="about.html">防骗说明</a>
+						</li>
+						<li>
+							<a href="biz.html">市场/商业合作</a>
+						</li>
+						<li>
+							<a href="about.html">投资与资本</a>
+						</li>
+						<li>
+							<a href="recruit.html">艺人/经纪合作</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-md-3 column">
+					<h4>服务</h4>
+					<ul>
+						<li>
+							<a href="agent.html">服务1VS1</a>
+						</li>
+						<li>
+							<a href="buyshow.html">买家秀拍摄</a>
+						</li>
+						<li>
+							<a href="video.html">短视频拍摄</a>
+						</li>
+						<li>
+							<a href="live-broadcast.html">直播合作</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-md-3 column">
+					<h4>招募计划</h4>
+					<ul>
+						<li>
+							<a href="recruit.html">模特招募</a>
+						</li>
+						<li>
+							<a href="agent.html">SHOWGIRL 招募</a>
+						</li>
+						<li>
+							<a href="recruit.html">时尚美女招募</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-md-3 column">
+					<h4>更多</h4>
+					<ul>
+						<li>
+							<a href="http://theflowerhome.cn/" target="_blank">微信订花</a>
+						</li>
+						<li>
+							<a href="http://theflowerhome.cn/" target="_blank">成都鲜花预定</a>
+						</li>
+						<li>
+							<a href="http://theflowerhome.cn/" target="_blank">成都花店送花</a>
+						</li>
+						<li>
+							<a href="http://huadian028.cn/huadian" target="_blank">成都花店</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="container footer_word">
+	<p class="row clearfix text-center">
+		页面：
+		<a href="http://chengdumote.com/sitemap" target="_blank">站点地图</a>
+		|
+		<a href="model.html">成都美女</a>
+		|
+		<a href="model.html">成都车模</a>
+		|
+		<a href="model.html">成都模特</a>
+		|
+		<a href="land.html">管理员</a>
+		|
+	</p>
+	<p class="row clearfix text-center">
+		标签：
+		<a href="index.html">模特公司</a>
+		|
+		<a href="index.html">成都模特兼职</a>
+		|
+		<a href="index.html">成都商务模特</a>
+		|
+		<a href="index.html">成都糖酒会模特</a>
+		|
+		<a href="index.html">成都模特公司</a>
+		|
+		<a href="index.html">成都礼仪模特</a>
+		COPYRIGHT
+		<a href="index.html">成都模特</a>
+		ALL RIGHTS RESERVED. 版权所有，抄袭必究
+	</p>
+
+</div>

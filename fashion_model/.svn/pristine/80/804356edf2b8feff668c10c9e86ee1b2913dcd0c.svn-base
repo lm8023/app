@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>成都模特招聘-成都平面模特招聘-成都模特兼职招聘-成都淘宝模特招聘-成都模特-成都模特网-成都模特公司-成都模特兼职-成都模特招聘-成都车展模特</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<script src="js/jquery-3.2.1.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+		<link rel="stylesheet" type="text/css" href="css/recruit.css" />
+		<link rel="stylesheet" href="css/index.css">
+		<link rel="stylesheet" href="css/header.css">
+		<link rel="stylesheet" href="css/footer.css">
+		<!--ico-->
+		<link rel="shortcut icon" href="img/favicon.ico" />		
+	</head>
+
+	<body>
+		<header></header>
+
+		<main>
+			<div class="container-fluid">
+				<div class="container">
+					<!--招募计划-->
+					<div class="row clearfix">
+						<div class="col-md-12 column">
+							<h3>招募计划</h3>
+							<hr />
+							<div class="thumbnail">
+								<img alt="300x200" src="img/zhaomu/zhubo.gif" />
+							</div>
+						</div>
+					</div>
+					<!--主播红人招募-->
+					<div class="row clearfix">						
+							<div class="col-md-12 column">
+								<div class="thumbnail">
+									<img src="img/zhaomu/banner03.jpg" alt="">
+								</div>
+								<div class="list-group-item bg delbor">A 主播红人招募</div>
+								<ol class="list-ol mTop">
+									<li>
+										进驻成都模特网
+									</li>
+									<li>
+										直播合作，视频拍摄及商业活动推荐。
+									</li>
+								</ol>
+							</div>
+						</div>
+						<!--招募要求-->
+						<div class="row clearfix">
+							<div class="col-md-12 column">
+								<div class="breadcrumb">
+									招募要求
+								</div>
+								<ol class="list-ol">
+									<li>在生活消费领域具备专业特质，美妆，穿搭，美食，旅游，健身，游戏等。</li>
+									<li>在微博，花椒，映客，陌陌等直播平台具备粉丝影响力。</li>
+									<li>提供10秒个人形象微视频，直播卡。。</li>
+								</ol>
+							</div>
+						</div>
+						<!--B 丽人扶持计划-->
+						<div class="row clearfix">
+							<div class="col-md-12 column">
+								<div class="thumbnail">
+									<img src="img/zhaomu/banner02.jpg" alt="">
+								</div>
+								<div class="list-group-item bg1 delbor">B 丽人扶持计划</div>
+								<ol class="list-ol mTop">
+									<li>
+										进驻成都模特网“新锐红人榜”
+									</li>
+									<li>
+										业务推广合作，免费推荐商业拍摄及活动。
+									</li>
+								</ol>
+							</div>
+						</div>
+						<!--资料要求-->
+						<div class="row clearfix">
+							<div class="col-md-12 column">
+								<div class="breadcrumb">
+									资料要求
+								</div>
+								<ol class="list-ol">
+									<li>名字 ／ 邮箱 ／ 电话 ／ 微信</li>
+									<li>身高／ 体重 ／ 三围 ／ 鞋码</li>
+									<li>10秒个人形象微视频，模卡 / 商业摄影照片</li>
+								</ol>
+							</div>
+						</div>
+						<!--马上联系我们-->
+						<div class="row clearfix">
+							<div class="col-md-12 column">
+								<div class="breadcrumb">
+									马上联系我们
+								</div>
+								<div class="row clearfix" id="contact-img">
+									<div class="col-md-12">
+										<ol class="list-ol">
+											<li>通过微信公众号直接提交个人资料，微信公众号：wxcdmote</li>
+											<li>添加管理员微信直接提交个人资料，管理员微信：kexuejia007</li>
+										</ol>
+										<hr>
+									</div>
+									<div class="col-md-6 column text-center">
+										<img src="img/code.jpg" />
+										<p class="text-center mTop">马上联系负责人</p>
+									</div>
+									<div class="col-md-6 column text-center">
+										<img src="img/qrcode.jpg" />
+										<p class="mTop">关注微信公众号</p>
+									</div>
+									<div class="col-md-12">
+										<hr>
+										<p class="list-group-item delbor">
+											成都模特网是成都梁道科技旗下互联网品牌，梁道科技涉及领域包括技术开发，微信运营，互联网运营培训，品牌策划包装，广告 代理，生鲜线上售卖，金融贷款等。合作客户包括壹基金，漫咖啡，奔驰，奇瑞等知名品牌。
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+		</main>
+		<footer class="container-fluid"></footer>
+		<script src="js/header.js"></script>
+	</body>
+
+</html>

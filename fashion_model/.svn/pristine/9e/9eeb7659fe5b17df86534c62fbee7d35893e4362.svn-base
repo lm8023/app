@@ -1,0 +1,151 @@
+<!doctype html>
+
+<html>
+
+	<head>
+		<title>lazyload</title>
+		<link rel="stylesheet" type="text/css" href="../css/bootstrap.css" />
+		<link rel="stylesheet" type="text/css" href="../css/mode-card.css" />
+		<script type="text/javascript" src="../js/jquery-3.2.1.js"></script>
+		<script src="../js/bootstrap.js"></script>
+		<script type="text/javascript" src="../js/jquery-lazyload.js"></script>
+		<script type="text/javascript" src="../js/mode-card.js"></script>
+		<style type="text/css">
+			.lazy {
+				width: 700px;
+				height: 400px;
+				margin-bottom: 30px;
+				border: 1px solid red;
+			}
+			
+			.text {
+				width: 120px;
+				height: 40px;
+				background: pink;
+				text-align: center;
+				line-height: 40px;
+				position: relative;
+			}
+			
+			.t1 {
+				top: 60px;
+			}
+			
+			.t2 {
+				left: 130px;
+				top: 20px;
+			}
+			
+			.text:hover {
+				box-shadow: 0 0px 15px 15px rgba(0, 0, 0, 0.3);
+			}
+		</style>
+	</head>
+
+	<body>
+	<div class="container">
+			<div class="row clearfix">
+				<div class="col-md-12 column" id="test">
+					<div class="thumbnail">
+						<img alt="140x140" data-original="../img/moder-card/moka.jpg" class="lazy" />
+					</div>
+					<div class="thumbnail">
+						<img alt="140x140" data-original="../img/moder-card/banner-jingji.jpg" class="lazy" />
+					</div>
+				</div>
+			</div>
+			<div class="row clearfix">
+				<div class="col-md-12 column">
+					<h3>
+						礼仪AND模特
+					</h3>
+					<div class="row clearfix">
+						<div class="col-md-12 column" id="card-list">
+							
+								<div class="text" style="top:60px;">
+									模特1
+								</div>
+								<div class="text" style="left: 130px;top: 20px;">
+									ID1
+								</div>
+								<img class="lazy" data-original="../img/moder-card/01.jpg" />
+							
+							<div class="thumbnail">
+								<div class="text" style="top:60px;">
+									模特1
+								</div>
+								<div class="text" style="left: 130px;top: 20px;">
+									ID1
+								</div>
+								<img class="lazy" data-original="../img/moder-card/01.jpg" />
+							</div>
+							<div class="thumbnail">
+								<div class="text" style="top:60px;">
+									模特1
+								</div>
+								<div class="text" style="left: 130px;top: 20px;">
+									ID1
+								</div>
+								<img class="lazy" data-original="../img/moder-card/01.jpg" />
+							</div>
+							<div class="thumbnail">
+								<div class="text" style="top:60px;">
+									模特1
+								</div>
+								<div class="text" style="left: 130px;top: 20px;">
+									ID1
+								</div>
+								<img class="lazy" data-original="../img/moder-card/01.jpg" />
+							</div>
+							<div class="thumbnail">
+								<div class="text" style="top:60px;">
+									模特1
+								</div>
+								<div class="text" style="left: 130px;top: 20px;">
+									ID1
+								</div>
+								<img class="lazy" data-original="../img/moder-card/01.jpg" />
+							</div>
+							<div class="thumbnail">
+								<div class="text" style="top:60px;">
+									模特1
+								</div>
+								<div class="text" style="left: 130px;top: 20px;">
+									ID1
+								</div>
+								<img class="lazy" data-original="../img/moder-card/01.jpg" />
+							</div>
+							<div class="thumbnail">
+								<div class="text" style="top:60px;">
+									模特1
+								</div>
+								<div class="text" style="left: 130px;top: 20px;">
+									ID1
+								</div>
+								<img class="lazy" data-original="../img/moder-card/01.jpg" />
+							</div>
+						</div>
+					</div>
+					<div id="paging">
+						<div class="paging-box">
+							<ul class="pagination" id="paging-list">
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- 引入jquery，和lazyload文件 -->
+		
+	</body>
+
+	<!-- 调用lazyload -->
+	<script type="text/javascript">
+		$(".lazy").lazyload({
+			effect: "slideDown"
+		});
+	</script>
+	</body>
+
+</html>
